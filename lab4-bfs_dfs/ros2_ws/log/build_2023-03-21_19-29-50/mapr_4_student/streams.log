@@ -1,0 +1,33 @@
+[0.606s] Invoking command in '/home/krawus/Studies/MAPR/lab4/ros2_ws/src/mapr_4_student': PYTHONPATH=/home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/prefix_override:/home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_4_student build --build-base /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build install --record /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/install.log --single-version-externally-managed
+[0.843s] running egg_info
+[0.844s] writing ../../build/mapr_4_student/mapr_4_student.egg-info/PKG-INFO
+[0.844s] writing dependency_links to ../../build/mapr_4_student/mapr_4_student.egg-info/dependency_links.txt
+[0.844s] writing entry points to ../../build/mapr_4_student/mapr_4_student.egg-info/entry_points.txt
+[0.844s] writing requirements to ../../build/mapr_4_student/mapr_4_student.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/mapr_4_student/mapr_4_student.egg-info/top_level.txt
+[0.846s] reading manifest file '../../build/mapr_4_student/mapr_4_student.egg-info/SOURCES.txt'
+[0.847s] writing manifest file '../../build/mapr_4_student/mapr_4_student.egg-info/SOURCES.txt'
+[0.847s] running build
+[0.847s] running build_py
+[0.847s] copying mapr_4_student/dfs_backtrace.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.847s] copying mapr_4_student/grid_map.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.848s] running install
+[0.848s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.848s]   warnings.warn(
+[0.848s] running install_lib
+[0.849s] copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/dfs_backtrace.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.849s] copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/grid_map.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.849s] byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/dfs_backtrace.py to dfs_backtrace.cpython-310.pyc
+[0.850s] byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/grid_map.py to grid_map.cpython-310.pyc
+[0.851s] running install_data
+[0.852s] running install_egg_info
+[0.853s] removing '/home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student-1.0.0-py3.10.egg-info' (and everything under it)
+[0.853s] Copying ../../build/mapr_4_student/mapr_4_student.egg-info to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student-1.0.0-py3.10.egg-info
+[0.854s] running install_scripts
+[0.872s] Installing bfs script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.873s] Installing bfs_backtrace script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.873s] Installing dfs script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.873s] Installing dfs_backtrace script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.873s] Installing points script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.873s] writing list of installed files to '/home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/install.log'
+[0.892s] Invoked command in '/home/krawus/Studies/MAPR/lab4/ros2_ws/src/mapr_4_student' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/prefix_override:/home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_4_student build --build-base /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build install --record /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/install.log --single-version-externally-managed

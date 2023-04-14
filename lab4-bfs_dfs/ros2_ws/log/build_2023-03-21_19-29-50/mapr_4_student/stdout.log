@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/mapr_4_student/mapr_4_student.egg-info/PKG-INFO
+writing dependency_links to ../../build/mapr_4_student/mapr_4_student.egg-info/dependency_links.txt
+writing entry points to ../../build/mapr_4_student/mapr_4_student.egg-info/entry_points.txt
+writing requirements to ../../build/mapr_4_student/mapr_4_student.egg-info/requires.txt
+writing top-level names to ../../build/mapr_4_student/mapr_4_student.egg-info/top_level.txt
+reading manifest file '../../build/mapr_4_student/mapr_4_student.egg-info/SOURCES.txt'
+writing manifest file '../../build/mapr_4_student/mapr_4_student.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mapr_4_student/dfs_backtrace.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+copying mapr_4_student/grid_map.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+running install
+running install_lib
+copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/dfs_backtrace.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/grid_map.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/dfs_backtrace.py to dfs_backtrace.cpython-310.pyc
+byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/grid_map.py to grid_map.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student-1.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mapr_4_student/mapr_4_student.egg-info to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student-1.0.0-py3.10.egg-info
+running install_scripts
+Installing bfs script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+Installing bfs_backtrace script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+Installing dfs script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+Installing dfs_backtrace script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+Installing points script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+writing list of installed files to '/home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/install.log'

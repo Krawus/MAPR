@@ -1,0 +1,10 @@
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/uninstall.dir
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/pcl_ros_uninstall.dir
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/pcl_ros_tf.dir
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/test.dir
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/edit_cache.dir
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/rebuild_cache.dir
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/list_install_components.dir
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/install.dir
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/install/local.dir
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros/CMakeFiles/install/strip.dir

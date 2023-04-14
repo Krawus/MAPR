@@ -1,0 +1,627 @@
+[1.717s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.717s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe31f422bc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe31fc4fa30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe31fc4fa30>>)
+[1.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.898s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/krawus/Studies/MAPR/lab3/ros2_ws'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_maps) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_maps) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_maps) by extension 'ignore_ament_install'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_maps) by extensions ['colcon_pkg']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_maps) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_maps) by extensions ['colcon_meta']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_maps) by extension 'colcon_meta'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_maps) by extensions ['ros']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_maps) by extension 'ros'
+[1.991s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_maps' with type 'ros.ament_cmake' and name 'example_maps'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_manipulation) by extensions ['ignore', 'ignore_ament_install']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_manipulation) by extension 'ignore'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_manipulation) by extension 'ignore_ament_install'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_manipulation) by extensions ['colcon_pkg']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_manipulation) by extension 'colcon_pkg'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_manipulation) by extensions ['colcon_meta']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_manipulation) by extension 'colcon_meta'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_manipulation) by extensions ['ros']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_manipulation) by extension 'ros'
+[1.999s] DEBUG:colcon.colcon_core.package_identification:Package 'src/octomap_manipulation' with type 'ros.ament_python' and name 'octomap_manipulation'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_msgs) by extension 'ignore'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_msgs) by extension 'ignore_ament_install'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_msgs) by extensions ['colcon_pkg']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_msgs) by extension 'colcon_pkg'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_msgs) by extensions ['colcon_meta']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_msgs) by extension 'colcon_meta'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_msgs) by extensions ['ros']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_msgs) by extension 'ros'
+[2.002s] DEBUG:colcon.colcon_core.package_identification:Package 'src/octomap_msgs' with type 'ros.ament_cmake' and name 'octomap_msgs'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_server2) by extensions ['ignore', 'ignore_ament_install']
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_server2) by extension 'ignore'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_server2) by extension 'ignore_ament_install'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_server2) by extensions ['colcon_pkg']
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_server2) by extension 'colcon_pkg'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_server2) by extensions ['colcon_meta']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_server2) by extension 'colcon_meta'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_server2) by extensions ['ros']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_server2) by extension 'ros'
+[2.010s] DEBUG:colcon.colcon_core.package_identification:Package 'src/octomap_server2' with type 'ros.ament_cmake' and name 'octomap_server2'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'ignore'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'ignore_ament_install'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extensions ['colcon_pkg']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'colcon_pkg'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extensions ['colcon_meta']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'colcon_meta'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extensions ['ros']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'ros'
+[2.018s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pcl_msgs' with type 'ros.ament_cmake' and name 'pcl_msgs'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ignore'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ignore_ament_install'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['colcon_pkg']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'colcon_pkg'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['colcon_meta']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'colcon_meta'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['ros']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ros'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['cmake', 'python']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'cmake'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'python'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['python_setup_py']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'python_setup_py'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['ignore', 'ignore_ament_install']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ignore'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ignore_ament_install'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['colcon_pkg']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'colcon_pkg'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['colcon_meta']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'colcon_meta'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['ros']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ros'
+[2.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/pcl_conversions' with type 'ros.ament_cmake' and name 'pcl_conversions'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ignore'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ignore_ament_install'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['colcon_pkg']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'colcon_pkg'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['colcon_meta']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'colcon_meta'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['ros']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ros'
+[2.041s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/pcl_ros' with type 'ros.ament_cmake' and name 'pcl_ros'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ignore'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ignore_ament_install'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['colcon_pkg']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'colcon_pkg'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['colcon_meta']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'colcon_meta'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['ros']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ros'
+[2.047s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/perception_pcl' with type 'ros.ament_cmake' and name 'perception_pcl'
+[2.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.178s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/krawus/Studies/MAPR/lab3/ros2_ws/install
+[2.188s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 342 installed packages in /opt/ros/humble
+[2.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.585s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'pcl_conversions' is in: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions, /opt/ros/humble
+	'pcl_ros' is in: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros, /opt/ros/humble
+	'octomap_msgs' is in: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding octomap_msgs pcl_conversions pcl_ros
+
+This may be promoted to an error in a future release of colcon-override-check.
+[2.597s] Level 5:colcon.colcon_core.verb:set package 'example_maps' build argument 'cmake_args' from command line to 'None'
+[2.597s] Level 5:colcon.colcon_core.verb:set package 'example_maps' build argument 'cmake_target' from command line to 'None'
+[2.597s] Level 5:colcon.colcon_core.verb:set package 'example_maps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.597s] Level 5:colcon.colcon_core.verb:set package 'example_maps' build argument 'cmake_clean_cache' from command line to 'False'
+[2.597s] Level 5:colcon.colcon_core.verb:set package 'example_maps' build argument 'cmake_clean_first' from command line to 'False'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'example_maps' build argument 'cmake_force_configure' from command line to 'False'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'example_maps' build argument 'ament_cmake_args' from command line to 'None'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'example_maps' build argument 'catkin_cmake_args' from command line to 'None'
+[2.598s] Level 5:colcon.colcon_core.verb:set package 'example_maps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.598s] DEBUG:colcon.colcon_core.verb:Building package 'example_maps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps', 'merge_install': False, 'path': '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/example_maps', 'symlink_install': False, 'test_result_base': None}
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'octomap_manipulation' build argument 'cmake_args' from command line to 'None'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'octomap_manipulation' build argument 'cmake_target' from command line to 'None'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'octomap_manipulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'octomap_manipulation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'octomap_manipulation' build argument 'cmake_clean_first' from command line to 'False'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'octomap_manipulation' build argument 'cmake_force_configure' from command line to 'False'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'octomap_manipulation' build argument 'ament_cmake_args' from command line to 'None'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'octomap_manipulation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'octomap_manipulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.605s] DEBUG:colcon.colcon_core.verb:Building package 'octomap_manipulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation', 'merge_install': False, 'path': '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_manipulation', 'symlink_install': False, 'test_result_base': None}
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_args' from command line to 'None'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_target' from command line to 'None'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'octomap_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.611s] DEBUG:colcon.colcon_core.verb:Building package 'octomap_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs', 'merge_install': False, 'path': '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'pcl_msgs' build argument 'cmake_args' from command line to 'None'
+[2.617s] Level 5:colcon.colcon_core.verb:set package 'pcl_msgs' build argument 'cmake_target' from command line to 'None'
+[2.618s] Level 5:colcon.colcon_core.verb:set package 'pcl_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'pcl_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'pcl_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'pcl_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'pcl_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'pcl_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'pcl_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.619s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs', 'merge_install': False, 'path': '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_args' from command line to 'None'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_target' from command line to 'None'
+[2.625s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.625s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_clean_cache' from command line to 'False'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_clean_first' from command line to 'False'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_force_configure' from command line to 'False'
+[2.626s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'ament_cmake_args' from command line to 'None'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'catkin_cmake_args' from command line to 'None'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.628s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_conversions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions', 'merge_install': False, 'path': '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/pcl_conversions', 'symlink_install': False, 'test_result_base': None}
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'octomap_server2' build argument 'cmake_args' from command line to 'None'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'octomap_server2' build argument 'cmake_target' from command line to 'None'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'octomap_server2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'octomap_server2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'octomap_server2' build argument 'cmake_clean_first' from command line to 'False'
+[2.634s] Level 5:colcon.colcon_core.verb:set package 'octomap_server2' build argument 'cmake_force_configure' from command line to 'False'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'octomap_server2' build argument 'ament_cmake_args' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'octomap_server2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.637s] Level 5:colcon.colcon_core.verb:set package 'octomap_server2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.638s] DEBUG:colcon.colcon_core.verb:Building package 'octomap_server2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_server2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2', 'merge_install': False, 'path': '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_server2', 'symlink_install': False, 'test_result_base': None}
+[2.642s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_args' from command line to 'None'
+[2.643s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_target' from command line to 'None'
+[2.644s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.644s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.644s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.646s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros', 'merge_install': False, 'path': '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/pcl_ros', 'symlink_install': False, 'test_result_base': None}
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_args' from command line to 'None'
+[2.651s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_target' from command line to 'None'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_clean_cache' from command line to 'False'
+[2.655s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_clean_first' from command line to 'False'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_force_configure' from command line to 'False'
+[2.658s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'ament_cmake_args' from command line to 'None'
+[2.659s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'catkin_cmake_args' from command line to 'None'
+[2.660s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.661s] DEBUG:colcon.colcon_core.verb:Building package 'perception_pcl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/perception_pcl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl', 'merge_install': False, 'path': '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/perception_pcl', 'symlink_install': False, 'test_result_base': None}
+[2.667s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.685s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.685s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs' with build type 'ament_cmake'
+[2.686s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs'
+[2.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.760s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_msgs' with build type 'ament_cmake'
+[2.761s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_msgs'
+[2.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.770s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.799s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/example_maps' with build type 'ament_cmake'
+[2.800s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/example_maps'
+[2.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.843s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_manipulation' with build type 'ament_python'
+[2.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_manipulation', 'ament_prefix_path')
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/hook/ament_prefix_path.ps1'
+[2.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/hook/ament_prefix_path.dsv'
+[2.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/hook/ament_prefix_path.sh'
+[2.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.888s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs -- -j8 -l8
+[3.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs -- -j8 -l8
+[3.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps -- -j8 -l8
+[4.742s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_manipulation'
+[4.748s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.748s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps -- -j8 -l8
+[5.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps
+[5.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_maps)
+[5.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps
+[5.381s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps' for CMake module files
+[5.384s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps' for CMake config files
+[5.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_maps', 'cmake_prefix_path')
+[5.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/hook/cmake_prefix_path.ps1'
+[5.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/hook/cmake_prefix_path.dsv'
+[5.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/hook/cmake_prefix_path.sh'
+[5.438s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/bin'
+[5.441s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/lib/pkgconfig/example_maps.pc'
+[5.442s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/lib/python3.10/site-packages'
+[5.443s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/bin'
+[5.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.ps1'
+[5.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.dsv'
+[5.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.sh'
+[5.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.bash'
+[5.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.zsh'
+[5.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/colcon-core/packages/example_maps)
+[5.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs -- -j8 -l8
+[5.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_maps)
+[5.844s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps' for CMake module files
+[5.849s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps' for CMake config files
+[5.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_maps', 'cmake_prefix_path')
+[5.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/hook/cmake_prefix_path.ps1'
+[5.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/hook/cmake_prefix_path.dsv'
+[5.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/hook/cmake_prefix_path.sh'
+[5.878s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/bin'
+[5.879s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/lib/pkgconfig/example_maps.pc'
+[5.880s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/lib/python3.10/site-packages'
+[5.880s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/bin'
+[5.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.ps1'
+[5.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.dsv'
+[5.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.sh'
+[5.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.bash'
+[5.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.zsh'
+[5.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/colcon-core/packages/example_maps)
+[5.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs -- -j8 -l8
+[7.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_manipulation': PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/prefix_override:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/octomap_manipulation build --build-base /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/build install --record /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/install.log --single-version-externally-managed
+[7.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs
+[7.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_msgs)
+[7.851s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs' for CMake module files
+[7.862s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs' for CMake config files
+[7.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs
+[7.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_msgs', 'cmake_prefix_path')
+[7.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.ps1'
+[7.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.dsv'
+[7.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.sh'
+[7.884s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib'
+[7.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_msgs', 'ld_library_path_lib')
+[7.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.ps1'
+[7.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.dsv'
+[7.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.sh'
+[7.897s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/bin'
+[7.897s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/pkgconfig/octomap_msgs.pc'
+[7.898s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/python3.10/site-packages'
+[7.898s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/bin'
+[7.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.ps1'
+[7.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.dsv'
+[7.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.sh'
+[7.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.bash'
+[7.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.zsh'
+[7.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/colcon-core/packages/octomap_msgs)
+[8.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs
+[8.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_msgs)
+[8.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs
+[8.646s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs' for CMake module files
+[8.651s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs' for CMake config files
+[8.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_msgs', 'cmake_prefix_path')
+[8.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/cmake_prefix_path.ps1'
+[8.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/cmake_prefix_path.dsv'
+[8.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/cmake_prefix_path.sh'
+[8.674s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib'
+[8.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_msgs', 'ld_library_path_lib')
+[8.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/ld_library_path_lib.ps1'
+[8.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/ld_library_path_lib.dsv'
+[8.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/ld_library_path_lib.sh'
+[8.691s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/bin'
+[8.692s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/pkgconfig/pcl_msgs.pc'
+[8.692s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/python3.10/site-packages'
+[8.693s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/bin'
+[8.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.ps1'
+[8.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.dsv'
+[8.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.sh'
+[8.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.bash'
+[8.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.zsh'
+[8.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/colcon-core/packages/pcl_msgs)
+[8.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_manipulation' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/prefix_override:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/octomap_manipulation build --build-base /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/build install --record /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/install.log --single-version-externally-managed
+[8.925s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation' for CMake module files
+[8.928s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation' for CMake config files
+[8.933s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib'
+[8.935s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/bin'
+[8.937s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/pkgconfig/octomap_manipulation.pc'
+[8.938s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages'
+[8.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_manipulation', 'pythonpath')
+[8.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/hook/pythonpath.ps1'
+[8.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/hook/pythonpath.dsv'
+[8.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/hook/pythonpath.sh'
+[8.983s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/bin'
+[8.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_manipulation)
+[8.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/package.ps1'
+[9.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/package.dsv'
+[9.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/package.sh'
+[9.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/package.bash'
+[9.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/octomap_manipulation/package.zsh'
+[9.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/share/colcon-core/packages/octomap_manipulation)
+[9.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_msgs)
+[9.264s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs' for CMake module files
+[9.270s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs' for CMake config files
+[9.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_msgs', 'cmake_prefix_path')
+[9.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.ps1'
+[9.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.dsv'
+[9.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/cmake_prefix_path.sh'
+[9.300s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib'
+[9.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_msgs', 'ld_library_path_lib')
+[9.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.ps1'
+[9.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.dsv'
+[9.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/hook/ld_library_path_lib.sh'
+[9.321s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/bin'
+[9.322s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/pkgconfig/octomap_msgs.pc'
+[9.323s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/python3.10/site-packages'
+[9.324s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/bin'
+[9.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.ps1'
+[9.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.dsv'
+[9.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.sh'
+[9.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.bash'
+[9.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.zsh'
+[9.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/colcon-core/packages/octomap_msgs)
+[10.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_msgs)
+[10.069s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs' for CMake module files
+[10.073s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs' for CMake config files
+[10.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_msgs', 'cmake_prefix_path')
+[10.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/cmake_prefix_path.ps1'
+[10.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/cmake_prefix_path.dsv'
+[10.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/cmake_prefix_path.sh'
+[10.097s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib'
+[10.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_msgs', 'ld_library_path_lib')
+[10.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/ld_library_path_lib.ps1'
+[10.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/ld_library_path_lib.dsv'
+[10.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/hook/ld_library_path_lib.sh'
+[10.130s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/bin'
+[10.136s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/pkgconfig/pcl_msgs.pc'
+[10.139s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/python3.10/site-packages'
+[10.141s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/bin'
+[10.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.ps1'
+[10.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.dsv'
+[10.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.sh'
+[10.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.bash'
+[10.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.zsh'
+[10.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/colcon-core/packages/pcl_msgs)
+[10.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/pcl_conversions' with build type 'ament_cmake'
+[10.176s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/pcl_conversions'
+[10.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions -- -j8 -l8
+[11.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions -- -j8 -l8
+[11.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions
+[11.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_conversions)
+[11.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions
+[11.428s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions' for CMake module files
+[11.430s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions' for CMake config files
+[11.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_conversions', 'cmake_prefix_path')
+[11.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.ps1'
+[11.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.dsv'
+[11.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.sh'
+[11.445s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/bin'
+[11.445s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc'
+[11.446s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/lib/python3.10/site-packages'
+[11.447s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/bin'
+[11.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.ps1'
+[11.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.dsv'
+[11.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.sh'
+[11.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.bash'
+[11.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.zsh'
+[11.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/colcon-core/packages/pcl_conversions)
+[11.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_conversions)
+[11.683s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions' for CMake module files
+[11.685s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions' for CMake config files
+[11.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_conversions', 'cmake_prefix_path')
+[11.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.ps1'
+[11.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.dsv'
+[11.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.sh'
+[11.707s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/bin'
+[11.708s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc'
+[11.709s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/lib/python3.10/site-packages'
+[11.712s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/bin'
+[11.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.ps1'
+[11.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.dsv'
+[11.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.sh'
+[11.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.bash'
+[11.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.zsh'
+[11.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/colcon-core/packages/pcl_conversions)
+[11.742s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/pcl_ros' with build type 'ament_cmake'
+[11.743s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/pcl_ros'
+[11.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.787s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_server2' with build type 'ament_cmake'
+[11.789s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_server2'
+[11.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros -- -j8 -l8
+[11.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_server2': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_server2 -- -j8 -l8
+[12.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros -- -j8 -l8
+[12.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_server2 -- -j8 -l8
+[12.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros
+[12.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_ros)
+[12.768s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros' for CMake module files
+[12.788s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros' for CMake config files
+[12.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'cmake_prefix_path')
+[12.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.ps1'
+[12.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.dsv'
+[12.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.sh'
+[12.820s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib'
+[12.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'ld_library_path_lib')
+[12.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.ps1'
+[12.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.dsv'
+[12.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.sh'
+[12.841s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/bin'
+[12.842s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib/pkgconfig/pcl_ros.pc'
+[12.844s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib/python3.10/site-packages'
+[12.846s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/bin'
+[12.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_ros
+[12.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.ps1'
+[12.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.dsv'
+[12.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.sh'
+[12.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.bash'
+[12.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.zsh'
+[12.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/colcon-core/packages/pcl_ros)
+[12.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_server2': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_server2
+[12.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_server2)
+[12.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_server2
+[12.988s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2' for CMake module files
+[12.993s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2' for CMake config files
+[12.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_server2', 'cmake_prefix_path')
+[13.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/cmake_prefix_path.ps1'
+[13.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/cmake_prefix_path.dsv'
+[13.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/cmake_prefix_path.sh'
+[13.018s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib'
+[13.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_server2', 'ld_library_path_lib')
+[13.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/ld_library_path_lib.ps1'
+[13.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/ld_library_path_lib.dsv'
+[13.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/ld_library_path_lib.sh'
+[13.039s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/bin'
+[13.042s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib/pkgconfig/octomap_server2.pc'
+[13.044s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib/python3.10/site-packages'
+[13.046s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/bin'
+[13.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.ps1'
+[13.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.dsv'
+[13.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.sh'
+[13.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.bash'
+[13.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.zsh'
+[13.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/colcon-core/packages/octomap_server2)
+[13.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_ros)
+[13.126s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros' for CMake module files
+[13.129s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros' for CMake config files
+[13.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'cmake_prefix_path')
+[13.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.ps1'
+[13.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.dsv'
+[13.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.sh'
+[13.162s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib'
+[13.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'ld_library_path_lib')
+[13.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.ps1'
+[13.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.dsv'
+[13.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.sh'
+[13.176s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/bin'
+[13.176s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib/pkgconfig/pcl_ros.pc'
+[13.177s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib/python3.10/site-packages'
+[13.177s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/bin'
+[13.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.ps1'
+[13.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.dsv'
+[13.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.sh'
+[13.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.bash'
+[13.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/pcl_ros/package.zsh'
+[13.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/share/colcon-core/packages/pcl_ros)
+[13.211s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/perception_pcl' with build type 'ament_cmake'
+[13.211s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/perception_pcl'
+[13.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/perception_pcl': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/perception_pcl -- -j8 -l8
+[13.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(octomap_server2)
+[13.429s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2' for CMake module files
+[13.431s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2' for CMake config files
+[13.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_server2', 'cmake_prefix_path')
+[13.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/cmake_prefix_path.ps1'
+[13.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/cmake_prefix_path.dsv'
+[13.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/cmake_prefix_path.sh'
+[13.462s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib'
+[13.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('octomap_server2', 'ld_library_path_lib')
+[13.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/ld_library_path_lib.ps1'
+[13.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/ld_library_path_lib.dsv'
+[13.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/hook/ld_library_path_lib.sh'
+[13.509s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/bin'
+[13.510s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib/pkgconfig/octomap_server2.pc'
+[13.511s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib/python3.10/site-packages'
+[13.512s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/bin'
+[13.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.ps1'
+[13.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.dsv'
+[13.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.sh'
+[13.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.bash'
+[13.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/octomap_server2/package.zsh'
+[13.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/share/colcon-core/packages/octomap_server2)
+[13.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/perception_pcl' returned '0': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/perception_pcl -- -j8 -l8
+[13.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/perception_pcl': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/perception_pcl
+[13.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_pcl)
+[13.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/perception_pcl' returned '0': CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_ros/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_server2/lib:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/perception_pcl
+[13.876s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl' for CMake module files
+[13.882s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl' for CMake config files
+[13.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_pcl', 'cmake_prefix_path')
+[13.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.ps1'
+[13.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.dsv'
+[13.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.sh'
+[13.916s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/bin'
+[13.917s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/lib/pkgconfig/perception_pcl.pc'
+[13.919s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/lib/python3.10/site-packages'
+[13.920s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/bin'
+[13.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.ps1'
+[13.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.dsv'
+[13.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.sh'
+[13.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.bash'
+[13.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.zsh'
+[13.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/colcon-core/packages/perception_pcl)
+[14.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_pcl)
+[14.153s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl' for CMake module files
+[14.158s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl' for CMake config files
+[14.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_pcl', 'cmake_prefix_path')
+[14.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.ps1'
+[14.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.dsv'
+[14.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.sh'
+[14.181s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/bin'
+[14.183s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/lib/pkgconfig/perception_pcl.pc'
+[14.185s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/lib/python3.10/site-packages'
+[14.187s] Level 1:colcon.colcon_core.environment:checking '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/bin'
+[14.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.ps1'
+[14.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.dsv'
+[14.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.sh'
+[14.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.bash'
+[14.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/perception_pcl/package.zsh'
+[14.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krawus/Studies/MAPR/lab3/ros2_ws/install/perception_pcl/share/colcon-core/packages/perception_pcl)
+[14.219s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.222s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.268s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.344s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.353s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/local_setup.ps1'
+[14.356s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/_local_setup_util_ps1.py'
+[14.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/setup.ps1'
+[14.369s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/local_setup.sh'
+[14.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/_local_setup_util_sh.py'
+[14.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/setup.sh'
+[14.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/local_setup.bash'
+[14.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/setup.bash'
+[14.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/local_setup.zsh'
+[14.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/setup.zsh'

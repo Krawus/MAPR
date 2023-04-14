@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/octomap_manipulation/octomap_manipulation.egg-info/PKG-INFO
+writing dependency_links to ../../build/octomap_manipulation/octomap_manipulation.egg-info/dependency_links.txt
+writing entry points to ../../build/octomap_manipulation/octomap_manipulation.egg-info/entry_points.txt
+writing requirements to ../../build/octomap_manipulation/octomap_manipulation.egg-info/requires.txt
+writing top-level names to ../../build/octomap_manipulation/octomap_manipulation.egg-info/top_level.txt
+reading manifest file '../../build/octomap_manipulation/octomap_manipulation.egg-info/SOURCES.txt'
+writing manifest file '../../build/octomap_manipulation/octomap_manipulation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying octomap_manipulation/octomap_manipulation_function.py -> /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/build/lib/octomap_manipulation
+running install
+running install_lib
+copying /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/build/lib/octomap_manipulation/octomap_manipulation_function.py -> /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages/octomap_manipulation
+byte-compiling /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages/octomap_manipulation/octomap_manipulation_function.py to octomap_manipulation_function.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages/octomap_manipulation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/octomap_manipulation/octomap_manipulation.egg-info to /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages/octomap_manipulation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/install.log'

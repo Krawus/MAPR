@@ -1,0 +1,4 @@
+Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs -- -j8 -l8
+Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs -- -j8 -l8
+Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs
+Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs

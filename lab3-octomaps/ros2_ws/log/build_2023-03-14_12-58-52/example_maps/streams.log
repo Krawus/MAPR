@@ -1,0 +1,24 @@
+[0.308s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps -- -j8 -l8
+[4.671s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps -- -j8 -l8
+[4.941s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps
+[4.996s] -- Install configuration: ""
+[4.999s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/launch
+[5.003s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/launch/turtlesim3_waffle_octomap.launch.py
+[5.005s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/rviz
+[5.009s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/rviz/rviz_cfg.rviz
+[5.022s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/ament_index/resource_index/package_run_dependencies/example_maps
+[5.023s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/ament_index/resource_index/parent_prefix_path/example_maps
+[5.023s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/environment/ament_prefix_path.sh
+[5.023s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/environment/ament_prefix_path.dsv
+[5.024s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/environment/path.sh
+[5.024s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/environment/path.dsv
+[5.024s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/local_setup.bash
+[5.025s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/local_setup.sh
+[5.026s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/local_setup.zsh
+[5.057s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/local_setup.dsv
+[5.058s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.dsv
+[5.059s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/ament_index/resource_index/packages/example_maps
+[5.061s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/cmake/example_mapsConfig.cmake
+[5.062s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/cmake/example_mapsConfig-version.cmake
+[5.064s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.xml
+[5.082s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/example_maps

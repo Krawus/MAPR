@@ -1,0 +1,23 @@
+[3.659s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_manipulation': PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/prefix_override:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/octomap_manipulation build --build-base /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/build install --record /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/install.log --single-version-externally-managed
+[4.680s] running egg_info
+[4.683s] writing ../../build/octomap_manipulation/octomap_manipulation.egg-info/PKG-INFO
+[4.683s] writing dependency_links to ../../build/octomap_manipulation/octomap_manipulation.egg-info/dependency_links.txt
+[4.683s] writing entry points to ../../build/octomap_manipulation/octomap_manipulation.egg-info/entry_points.txt
+[4.684s] writing requirements to ../../build/octomap_manipulation/octomap_manipulation.egg-info/requires.txt
+[4.685s] writing top-level names to ../../build/octomap_manipulation/octomap_manipulation.egg-info/top_level.txt
+[4.689s] reading manifest file '../../build/octomap_manipulation/octomap_manipulation.egg-info/SOURCES.txt'
+[4.689s] writing manifest file '../../build/octomap_manipulation/octomap_manipulation.egg-info/SOURCES.txt'
+[4.690s] running build
+[4.690s] running build_py
+[4.690s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.691s]   warnings.warn(
+[4.691s] running install
+[4.692s] running install_lib
+[4.694s] running install_data
+[4.695s] running install_egg_info
+[4.700s] removing '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages/octomap_manipulation-0.0.0-py3.10.egg-info' (and everything under it)
+[4.701s] Copying ../../build/octomap_manipulation/octomap_manipulation.egg-info to /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages/octomap_manipulation-0.0.0-py3.10.egg-info
+[4.703s] running install_scripts
+[4.787s] Installing octomap_print script to /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/octomap_manipulation
+[4.788s] writing list of installed files to '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/install.log'
+[4.936s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_manipulation' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/prefix_override:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/octomap_manipulation build --build-base /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/build install --record /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_manipulation/install.log --single-version-externally-managed

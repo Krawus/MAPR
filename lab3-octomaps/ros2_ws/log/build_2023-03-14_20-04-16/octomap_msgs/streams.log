@@ -1,0 +1,175 @@
+[0.090s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs -- -j8 -l8
+[2.263s] [ 10%] Built target octomap_msgs__rosidl_generator_c
+[2.263s] [ 12%] Built target octomap_msgs__cpp
+[2.272s] [ 12%] Built target ament_cmake_python_symlink_octomap_msgs
+[2.272s] [ 23%] Built target octomap_msgs__rosidl_typesupport_introspection_c
+[2.272s] [ 34%] Built target octomap_msgs__rosidl_typesupport_c
+[2.273s] [ 45%] Built target octomap_msgs__rosidl_typesupport_fastrtps_cpp
+[2.273s] [ 56%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c
+[2.273s] [ 67%] Built target octomap_msgs__rosidl_typesupport_introspection_cpp
+[2.273s] [ 78%] Built target octomap_msgs__rosidl_typesupport_cpp
+[2.273s] [ 78%] Built target octomap_msgs
+[2.274s] [ 80%] Built target octomap_msgs__py
+[2.274s] [ 89%] Built target octomap_msgs__rosidl_generator_py
+[2.274s] [ 92%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.274s] [ 96%] Built target octomap_msgs__rosidl_typesupport_c__pyext
+[2.274s] [100%] Built target octomap_msgs__rosidl_typesupport_introspection_c__pyext
+[2.275s] running egg_info
+[2.275s] writing octomap_msgs.egg-info/PKG-INFO
+[2.275s] writing dependency_links to octomap_msgs.egg-info/dependency_links.txt
+[2.277s] writing top-level names to octomap_msgs.egg-info/top_level.txt
+[2.277s] reading manifest file 'octomap_msgs.egg-info/SOURCES.txt'
+[2.277s] writing manifest file 'octomap_msgs.egg-info/SOURCES.txt'
+[2.278s] [100%] Built target ament_cmake_python_build_octomap_msgs_egg
+[2.280s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs -- -j8 -l8
+[3.012s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs
+[3.040s] -- Install configuration: ""
+[3.041s] -- Execute custom install script
+[3.042s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/ament_index/resource_index/rosidl_interfaces/octomap_msgs
+[3.044s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__functions.h
+[3.045s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.h
+[3.045s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__type_support.h
+[3.046s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__functions.h
+[3.047s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.h
+[3.047s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.h
+[3.047s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap.h
+[3.048s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.h
+[3.048s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.049s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/bounding_box_query.h
+[3.049s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__functions.h
+[3.050s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__struct.h
+[3.050s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__type_support.h
+[3.051s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__functions.h
+[3.052s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__struct.h
+[3.052s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__type_support.h
+[3.053s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/get_octomap.h
+[3.054s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/environment/library_path.sh
+[3.054s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/environment/library_path.dsv
+[3.057s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_fastrtps_c.h
+[3.058s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_fastrtps_c.h
+[3.060s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.062s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_fastrtps_c.h
+[3.063s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_fastrtps_c.h
+[3.064s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_introspection_c.h
+[3.065s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_introspection_c.h
+[3.066s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.067s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_introspection_c.h
+[3.068s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_introspection_c.h
+[3.070s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__builder.hpp
+[3.070s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp
+[3.071s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp
+[3.071s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp
+[3.072s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp
+[3.073s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp
+[3.073s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap.hpp
+[3.074s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp
+[3.076s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/bounding_box_query.hpp
+[3.077s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__builder.hpp
+[3.078s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__struct.hpp
+[3.078s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__traits.hpp
+[3.078s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__builder.hpp
+[3.079s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__struct.hpp
+[3.079s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__traits.hpp
+[3.079s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/get_octomap.hpp
+[3.082s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_fastrtps_cpp.hpp
+[3.082s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[3.083s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.083s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_fastrtps_cpp.hpp
+[3.084s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_fastrtps_cpp.hpp
+[3.084s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_introspection_cpp.hpp
+[3.085s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[3.085s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_introspection_cpp.hpp
+[3.085s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_introspection_cpp.hpp
+[3.086s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/environment/pythonpath.sh
+[3.086s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/environment/pythonpath.dsv
+[3.088s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.0-py3.10.egg-info/PKG-INFO
+[3.088s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.0-py3.10.egg-info/SOURCES.txt
+[3.089s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.0-py3.10.egg-info/dependency_links.txt
+[3.089s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.0-py3.10.egg-info/top_level.txt
+[3.091s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/__init__.py
+[3.092s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_c.c
+[3.093s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.093s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.094s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/liboctomap_msgs__rosidl_generator_py.so
+[3.094s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/__init__.py
+[3.095s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap.py
+[3.096s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_s.c
+[3.096s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_with_pose.py
+[3.096s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_with_pose_s.c
+[3.097s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.098s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.098s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.099s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/__init__.py
+[3.099s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_bounding_box_query.py
+[3.100s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_bounding_box_query_s.c
+[3.100s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_get_octomap.py
+[3.101s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_get_octomap_s.c
+[3.102s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.104s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.108s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.115s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/msg/Octomap.idl
+[3.116s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/msg/OctomapWithPose.idl
+[3.117s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery.idl
+[3.117s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap.idl
+[3.118s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/msg/Octomap.msg
+[3.120s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/msg/OctomapWithPose.msg
+[3.120s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery.srv
+[3.121s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery_Request.msg
+[3.121s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery_Response.msg
+[3.122s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap.srv
+[3.122s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap_Request.msg
+[3.122s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap_Response.msg
+[3.123s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/ament_index/resource_index/package_run_dependencies/octomap_msgs
+[3.124s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/ament_index/resource_index/parent_prefix_path/octomap_msgs
+[3.124s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/environment/ament_prefix_path.sh
+[3.127s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/environment/ament_prefix_path.dsv
+[3.127s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/environment/path.sh
+[3.128s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/environment/path.dsv
+[3.128s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/local_setup.bash
+[3.129s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/local_setup.sh
+[3.129s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/local_setup.zsh
+[3.131s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/local_setup.dsv
+[3.131s] -- Symlinking: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.dsv
+[3.159s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/ament_index/resource_index/packages/octomap_msgs
+[3.160s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake-extras.cmake
+[3.161s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.162s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.163s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.166s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.166s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.168s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.172s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgsConfig.cmake
+[3.173s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgsConfig-version.cmake
+[3.173s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/package.xml
+[3.174s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_generator_c.so
+[3.182s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so
+[3.184s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_c.so
+[3.185s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_c.so
+[3.186s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.187s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_cpp.so
+[3.188s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_cpp.so
+[3.319s] Listing '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs'...
+[3.319s] Listing '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg'...
+[3.320s] Listing '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv'...
+[3.340s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/lib/liboctomap_msgs__rosidl_generator_py.so
+[3.341s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs
+[3.342s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs
+[3.342s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/include/octomap_msgs/octomap_msgs/conversions.h
+[3.343s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_cExport.cmake
+[3.343s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.345s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.346s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.347s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.347s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.348s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cExport.cmake
+[3.349s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.349s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_cppExport.cmake
+[3.350s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.351s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.366s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.367s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.370s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cppExport.cmake
+[3.370s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.371s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_pyExport.cmake
+[3.372s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.377s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/octomap_msgs

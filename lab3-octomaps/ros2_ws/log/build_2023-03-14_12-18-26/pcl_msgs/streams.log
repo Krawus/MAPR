@@ -1,0 +1,186 @@
+[0.343s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs -- -j8 -l8
+[0.794s] [  1%] Built target pcl_msgs__cpp
+[1.030s] [  1%] Built target ament_cmake_python_symlink_pcl_msgs
+[1.201s] [ 12%] Built target pcl_msgs__rosidl_typesupport_introspection_cpp
+[2.628s] running egg_info
+[2.637s] writing pcl_msgs.egg-info/PKG-INFO
+[2.637s] writing dependency_links to pcl_msgs.egg-info/dependency_links.txt
+[2.637s] writing top-level names to pcl_msgs.egg-info/top_level.txt
+[2.690s] reading manifest file 'pcl_msgs.egg-info/SOURCES.txt'
+[2.723s] writing manifest file 'pcl_msgs.egg-info/SOURCES.txt'
+[2.933s] [ 12%] Built target ament_cmake_python_build_pcl_msgs_egg
+[3.095s] [ 23%] Built target pcl_msgs__rosidl_typesupport_fastrtps_cpp
+[3.208s] [ 34%] Built target pcl_msgs__rosidl_typesupport_cpp
+[3.314s] [ 46%] Built target pcl_msgs__rosidl_generator_c
+[3.460s] [ 57%] Built target pcl_msgs__rosidl_typesupport_fastrtps_c
+[3.572s] [ 68%] Built target pcl_msgs__rosidl_typesupport_c
+[3.677s] [ 79%] Built target pcl_msgs__rosidl_typesupport_introspection_c
+[3.866s] [ 79%] Built target pcl_msgs
+[4.046s] [ 80%] Built target pcl_msgs__py
+[4.309s] [ 90%] Built target pcl_msgs__rosidl_generator_py
+[4.563s] [ 93%] Built target pcl_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.806s] [ 96%] Built target pcl_msgs__rosidl_typesupport_c__pyext
+[5.002s] [100%] Built target pcl_msgs__rosidl_typesupport_introspection_c__pyext
+[5.114s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs -- -j8 -l8
+[6.942s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs
+[7.143s] -- Install configuration: ""
+[7.143s] -- Execute custom install script
+[7.145s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/ament_index/resource_index/rosidl_interfaces/pcl_msgs
+[7.146s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__functions.h
+[7.146s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__struct.h
+[7.146s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__type_support.h
+[7.147s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__functions.h
+[7.147s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.h
+[7.148s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__type_support.h
+[7.148s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__functions.h
+[7.148s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__struct.h
+[7.148s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__type_support.h
+[7.149s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__functions.h
+[7.149s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__struct.h
+[7.149s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__type_support.h
+[7.149s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/model_coefficients.h
+[7.150s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/point_indices.h
+[7.150s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/polygon_mesh.h
+[7.150s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.150s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/vertices.h
+[7.151s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__functions.h
+[7.151s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__struct.h
+[7.151s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__type_support.h
+[7.151s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/update_filename.h
+[7.159s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/environment/library_path.sh
+[7.163s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/environment/library_path.dsv
+[7.164s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_fastrtps_c.h
+[7.164s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_fastrtps_c.h
+[7.193s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_fastrtps_c.h
+[7.193s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_fastrtps_c.h
+[7.193s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.194s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_fastrtps_c.h
+[7.194s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_introspection_c.h
+[7.194s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_introspection_c.h
+[7.194s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_introspection_c.h
+[7.195s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_introspection_c.h
+[7.195s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.195s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_introspection_c.h
+[7.195s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__builder.hpp
+[7.201s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__struct.hpp
+[7.202s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__traits.hpp
+[7.204s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__builder.hpp
+[7.205s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.hpp
+[7.205s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__traits.hpp
+[7.205s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__builder.hpp
+[7.205s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__struct.hpp
+[7.206s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__traits.hpp
+[7.206s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__builder.hpp
+[7.206s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__struct.hpp
+[7.206s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__traits.hpp
+[7.207s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/model_coefficients.hpp
+[7.207s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/point_indices.hpp
+[7.207s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/polygon_mesh.hpp
+[7.207s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/vertices.hpp
+[7.208s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__builder.hpp
+[7.208s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__struct.hpp
+[7.208s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__traits.hpp
+[7.209s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/update_filename.hpp
+[7.209s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_fastrtps_cpp.hpp
+[7.209s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_fastrtps_cpp.hpp
+[7.209s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[7.209s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_fastrtps_cpp.hpp
+[7.210s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.210s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_fastrtps_cpp.hpp
+[7.210s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_introspection_cpp.hpp
+[7.210s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_introspection_cpp.hpp
+[7.210s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_introspection_cpp.hpp
+[7.211s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_introspection_cpp.hpp
+[7.211s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_introspection_cpp.hpp
+[7.211s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/environment/pythonpath.sh
+[7.211s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/environment/pythonpath.dsv
+[7.211s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[7.212s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[7.227s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[7.228s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[7.228s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/__init__.py
+[7.228s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_c.c
+[7.229s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.229s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.229s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/libpcl_msgs__rosidl_generator_py.so
+[7.229s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/__init__.py
+[7.230s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_model_coefficients.py
+[7.230s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_model_coefficients_s.c
+[7.230s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_point_indices.py
+[7.230s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_point_indices_s.c
+[7.230s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_polygon_mesh.py
+[7.231s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_polygon_mesh_s.c
+[7.231s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_vertices.py
+[7.231s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_vertices_s.c
+[7.231s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.231s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.232s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.232s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/__init__.py
+[7.232s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/_update_filename.py
+[7.232s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/_update_filename_s.c
+[7.233s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.233s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.233s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.233s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/msg/ModelCoefficients.idl
+[7.233s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/msg/PointIndices.idl
+[7.234s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/msg/PolygonMesh.idl
+[7.234s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/msg/Vertices.idl
+[7.234s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename.idl
+[7.234s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/msg/ModelCoefficients.msg
+[7.235s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/msg/PointIndices.msg
+[7.235s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/msg/PolygonMesh.msg
+[7.235s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/msg/Vertices.msg
+[7.235s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename.srv
+[7.236s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename_Request.msg
+[7.236s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename_Response.msg
+[7.236s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/ament_index/resource_index/package_run_dependencies/pcl_msgs
+[7.237s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/ament_index/resource_index/parent_prefix_path/pcl_msgs
+[7.237s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/environment/ament_prefix_path.sh
+[7.237s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/environment/ament_prefix_path.dsv
+[7.238s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/environment/path.sh
+[7.238s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/environment/path.dsv
+[7.239s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/local_setup.bash
+[7.240s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/local_setup.sh
+[7.241s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/local_setup.zsh
+[7.241s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/local_setup.dsv
+[7.242s] -- Symlinking: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.dsv
+[7.242s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/ament_index/resource_index/packages/pcl_msgs
+[7.242s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake-extras.cmake
+[7.242s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.243s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.243s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.243s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.243s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.244s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.244s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgsConfig.cmake
+[7.244s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgsConfig-version.cmake
+[7.244s] -- Up-to-date symlink: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/package.xml
+[7.245s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_c.so
+[7.245s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so
+[7.245s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so
+[7.245s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_c.so
+[7.246s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.246s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so
+[7.246s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_cpp.so
+[7.403s] Listing '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs'...
+[7.404s] Listing '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg'...
+[7.404s] Listing '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv'...
+[7.445s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_py.so
+[7.445s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_cExport.cmake
+[7.446s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.450s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.451s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.453s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.454s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.455s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cExport.cmake
+[7.455s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.455s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_cppExport.cmake
+[7.456s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.461s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.463s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.463s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.464s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cppExport.cmake
+[7.464s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.466s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_pyExport.cmake
+[7.467s] -- Up-to-date: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.490s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/octomap_manipulation:/opt/ros/humble /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs

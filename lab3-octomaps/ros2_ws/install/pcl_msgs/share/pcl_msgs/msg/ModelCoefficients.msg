@@ -1,0 +1,1 @@
+/home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs/msg/ModelCoefficients.msg

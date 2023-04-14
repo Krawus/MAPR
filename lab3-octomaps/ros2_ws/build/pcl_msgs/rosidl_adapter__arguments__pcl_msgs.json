@@ -1,0 +1,10 @@
+{
+  "package_name": "pcl_msgs",
+  "non_idl_tuples": [
+    "/home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs:msg/ModelCoefficients.msg",
+    "/home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs:msg/PointIndices.msg",
+    "/home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs:msg/PolygonMesh.msg",
+    "/home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs:msg/Vertices.msg",
+    "/home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs:srv/UpdateFilename.srv"
+  ]
+}

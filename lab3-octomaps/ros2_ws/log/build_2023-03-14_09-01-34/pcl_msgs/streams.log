@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs': /usr/bin/cmake /home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs
+[0.153s] -- The C compiler identification is GNU 11.3.0
+[0.260s] -- The CXX compiler identification is GNU 11.3.0
+[0.272s] -- Detecting C compiler ABI info
+[0.358s] -- Detecting C compiler ABI info - done
+[0.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.370s] -- Detecting C compile features
+[0.370s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.473s] -- Detecting CXX compiler ABI info - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.487s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.505s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.506s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.506s]   has asked CMake to find a package configuration file provided by
+[0.506s]   "ament_cmake", but CMake did not find one.
+[0.506s] 
+[0.506s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.507s]   any of the following names:
+[0.507s] 
+[0.508s]     ament_cmakeConfig.cmake
+[0.508s]     ament_cmake-config.cmake
+[0.508s] 
+[0.509s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.510s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.511s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.511s]   has been installed.
+[0.512s] 
+[0.512s] [0m
+[0.512s] -- Configuring incomplete, errors occurred!
+[0.513s] See also "/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs/CMakeFiles/CMakeOutput.log".
+[0.514s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs' returned '1': /usr/bin/cmake /home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs

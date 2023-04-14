@@ -1,0 +1,17 @@
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/launch/turtlesim3_waffle_octomap.launch.py
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/rviz/rviz_cfg.rviz
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/ament_index/resource_index/package_run_dependencies/example_maps
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/ament_index/resource_index/parent_prefix_path/example_maps
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/environment/ament_prefix_path.sh
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/environment/ament_prefix_path.dsv
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/environment/path.sh
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/environment/path.dsv
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/local_setup.bash
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/local_setup.sh
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/local_setup.zsh
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/local_setup.dsv
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.dsv
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/ament_index/resource_index/packages/example_maps
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/cmake/example_mapsConfig.cmake
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/cmake/example_mapsConfig-version.cmake
+/home/krawus/Studies/MAPR/lab3/ros2_ws/install/example_maps/share/example_maps/package.xml

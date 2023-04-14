@@ -1,0 +1,51 @@
+[0.489s] Invoking command in '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student': PYTHONPATH=/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/prefix_override:/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build
+[0.700s] running develop
+[0.700s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.700s]   warnings.warn(
+[0.701s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.701s]   warnings.warn(
+[0.750s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.750s]   warnings.warn(
+[0.750s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.750s]   warnings.warn(
+[0.839s] Removing /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr-5-student.egg-link (link to .)
+[0.859s] Invoked command in '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/prefix_override:/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build
+[0.861s] Invoking command in '/home/krawus/Studies/MAPR/lab5/src/mapr_5_student': PYTHONPATH=/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/prefix_override:/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_5_student build --build-base /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build install --record /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/install.log --single-version-externally-managed
+[1.056s] running egg_info
+[1.056s] writing ../../build/mapr_5_student/mapr_5_student.egg-info/PKG-INFO
+[1.057s] writing dependency_links to ../../build/mapr_5_student/mapr_5_student.egg-info/dependency_links.txt
+[1.057s] writing entry points to ../../build/mapr_5_student/mapr_5_student.egg-info/entry_points.txt
+[1.057s] writing requirements to ../../build/mapr_5_student/mapr_5_student.egg-info/requires.txt
+[1.057s] writing top-level names to ../../build/mapr_5_student/mapr_5_student.egg-info/top_level.txt
+[1.058s] reading manifest file '../../build/mapr_5_student/mapr_5_student.egg-info/SOURCES.txt'
+[1.059s] writing manifest file '../../build/mapr_5_student/mapr_5_student.egg-info/SOURCES.txt'
+[1.059s] running build
+[1.060s] running build_py
+[1.060s] creating /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build
+[1.060s] creating /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib
+[1.060s] creating /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student
+[1.060s] copying mapr_5_student/astar.py -> /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student
+[1.060s] copying mapr_5_student/__init__.py -> /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student
+[1.060s] copying mapr_5_student/grid_map.py -> /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student
+[1.060s] copying mapr_5_student/points.py -> /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student
+[1.060s] running install
+[1.060s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.061s]   warnings.warn(
+[1.061s] running install_lib
+[1.061s] creating /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student
+[1.061s] copying /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student/astar.py -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student
+[1.062s] copying /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student/__init__.py -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student
+[1.062s] copying /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student/grid_map.py -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student
+[1.062s] copying /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student/points.py -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student
+[1.062s] byte-compiling /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student/astar.py to astar.cpython-310.pyc
+[1.062s] byte-compiling /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student/__init__.py to __init__.cpython-310.pyc
+[1.063s] byte-compiling /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student/grid_map.py to grid_map.cpython-310.pyc
+[1.063s] byte-compiling /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student/points.py to points.cpython-310.pyc
+[1.064s] running install_data
+[1.064s] running install_egg_info
+[1.066s] Copying ../../build/mapr_5_student/mapr_5_student.egg-info to /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student-1.0.0-py3.10.egg-info
+[1.066s] running install_scripts
+[1.083s] Installing astar script to /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/mapr_5_student
+[1.083s] Installing points script to /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/mapr_5_student
+[1.083s] writing list of installed files to '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/install.log'
+[1.101s] Invoked command in '/home/krawus/Studies/MAPR/lab5/src/mapr_5_student' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/prefix_override:/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_5_student build --build-base /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build install --record /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/install.log --single-version-externally-managed

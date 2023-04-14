@@ -1,0 +1,3 @@
+[console_scripts]
+astar = mapr_5_student.astar:main
+points = mapr_5_student.points:main

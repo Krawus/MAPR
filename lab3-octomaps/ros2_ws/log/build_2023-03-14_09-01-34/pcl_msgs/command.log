@@ -1,0 +1,2 @@
+Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs': /usr/bin/cmake /home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs
+Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs' returned '1': /usr/bin/cmake /home/krawus/Studies/MAPR/lab3/ros2_ws/src/pcl_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs

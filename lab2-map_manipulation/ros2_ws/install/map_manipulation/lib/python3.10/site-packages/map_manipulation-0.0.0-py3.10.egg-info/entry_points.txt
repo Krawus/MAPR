@@ -1,0 +1,3 @@
+[console_scripts]
+map_manipulator = map_manipulation.publisher_member_function:main
+

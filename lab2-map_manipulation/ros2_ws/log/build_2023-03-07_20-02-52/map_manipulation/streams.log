@@ -1,0 +1,30 @@
+[0.549s] Invoking command in '/home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation': PYTHONPATH=/home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/prefix_override:/home/krawus/Studies/MAPR/lab2/ros2_ws/install/map_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/build
+[0.689s] Traceback (most recent call last):
+[0.689s]   File "/home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/setup.py", line 1, in <module>
+[0.690s]     from setuptools import setup
+[0.690s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.690s]     import setuptools.version
+[0.690s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.690s]     import pkg_resources
+[0.690s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[0.690s]     def _initialize_master_working_set():
+[0.690s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[0.690s]     f(*args, **kwargs)
+[0.691s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set
+[0.691s]     list(map(working_set.add_entry, sys.path))
+[0.691s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[0.691s]     for dist in find_distributions(entry, True):
+[0.691s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[0.691s]     for dist in factory(fullpath):
+[0.692s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+[0.692s]     yield Distribution.from_location(
+[0.692s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2603, in from_location
+[0.692s]     return cls(
+[0.692s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2584, in __init__
+[0.692s]     self._version = safe_version(version)
+[0.692s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version
+[0.692s]     return str(packaging.version.Version(version))
+[0.693s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 264, in __init__
+[0.693s]     match = self._regex.search(version)
+[0.693s] KeyboardInterrupt
+[0.705s] Invoked command in '/home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation' returned '-2': PYTHONPATH=/home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/prefix_override:/home/krawus/Studies/MAPR/lab2/ros2_ws/install/map_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/build

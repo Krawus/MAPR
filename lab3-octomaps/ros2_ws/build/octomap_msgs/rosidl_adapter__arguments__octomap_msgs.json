@@ -1,0 +1,9 @@
+{
+  "package_name": "octomap_msgs",
+  "non_idl_tuples": [
+    "/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_msgs:msg/Octomap.msg",
+    "/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_msgs:msg/OctomapWithPose.msg",
+    "/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_msgs:srv/BoundingBoxQuery.srv",
+    "/home/krawus/Studies/MAPR/lab3/ros2_ws/src/octomap_msgs:srv/GetOctomap.srv"
+  ]
+}

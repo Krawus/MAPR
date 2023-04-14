@@ -1,0 +1,3 @@
+[console_scripts]
+octomap_print = octomap_manipulation.octomap_manipulation_function:main
+

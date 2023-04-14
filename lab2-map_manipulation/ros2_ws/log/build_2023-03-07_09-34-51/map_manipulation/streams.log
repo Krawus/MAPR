@@ -1,0 +1,23 @@
+[0.627s] Invoking command in '/home/krawus/Studies/MAPR/lab2/ros2_ws/src/map_manipulation': PYTHONPATH=/home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/prefix_override:/home/krawus/Studies/MAPR/lab2/ros2_ws/install/map_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_manipulation build --build-base /home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/build install --record /home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/install.log --single-version-externally-managed
+[0.857s] running egg_info
+[0.857s] writing ../../build/map_manipulation/map_manipulation.egg-info/PKG-INFO
+[0.857s] writing dependency_links to ../../build/map_manipulation/map_manipulation.egg-info/dependency_links.txt
+[0.858s] writing entry points to ../../build/map_manipulation/map_manipulation.egg-info/entry_points.txt
+[0.858s] writing requirements to ../../build/map_manipulation/map_manipulation.egg-info/requires.txt
+[0.858s] writing top-level names to ../../build/map_manipulation/map_manipulation.egg-info/top_level.txt
+[0.860s] reading manifest file '../../build/map_manipulation/map_manipulation.egg-info/SOURCES.txt'
+[0.861s] writing manifest file '../../build/map_manipulation/map_manipulation.egg-info/SOURCES.txt'
+[0.861s] running build
+[0.861s] running build_py
+[0.862s] running install
+[0.862s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.862s]   warnings.warn(
+[0.862s] running install_lib
+[0.863s] running install_data
+[0.864s] running install_egg_info
+[0.866s] removing '/home/krawus/Studies/MAPR/lab2/ros2_ws/install/map_manipulation/lib/python3.10/site-packages/map_manipulation-0.0.0-py3.10.egg-info' (and everything under it)
+[0.866s] Copying ../../build/map_manipulation/map_manipulation.egg-info to /home/krawus/Studies/MAPR/lab2/ros2_ws/install/map_manipulation/lib/python3.10/site-packages/map_manipulation-0.0.0-py3.10.egg-info
+[0.867s] running install_scripts
+[0.886s] Installing map_manipulator script to /home/krawus/Studies/MAPR/lab2/ros2_ws/install/map_manipulation/lib/map_manipulation
+[0.886s] writing list of installed files to '/home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/install.log'
+[0.908s] Invoked command in '/home/krawus/Studies/MAPR/lab2/ros2_ws/src/map_manipulation' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/prefix_override:/home/krawus/Studies/MAPR/lab2/ros2_ws/install/map_manipulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_manipulation build --build-base /home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/build install --record /home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation/install.log --single-version-externally-managed

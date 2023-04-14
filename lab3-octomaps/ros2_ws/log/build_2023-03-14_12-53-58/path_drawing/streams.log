@@ -1,0 +1,36 @@
+[1.476s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/path_drawing': PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/prefix_override:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_drawing build --build-base /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build install --record /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/install.log --single-version-externally-managed
+[1.940s] running egg_info
+[1.940s] creating ../../build/path_drawing/path_drawing.egg-info
+[1.940s] writing ../../build/path_drawing/path_drawing.egg-info/PKG-INFO
+[1.940s] writing dependency_links to ../../build/path_drawing/path_drawing.egg-info/dependency_links.txt
+[1.940s] writing entry points to ../../build/path_drawing/path_drawing.egg-info/entry_points.txt
+[1.940s] writing requirements to ../../build/path_drawing/path_drawing.egg-info/requires.txt
+[1.940s] writing top-level names to ../../build/path_drawing/path_drawing.egg-info/top_level.txt
+[1.941s] writing manifest file '../../build/path_drawing/path_drawing.egg-info/SOURCES.txt'
+[1.941s] reading manifest file '../../build/path_drawing/path_drawing.egg-info/SOURCES.txt'
+[1.942s] writing manifest file '../../build/path_drawing/path_drawing.egg-info/SOURCES.txt'
+[1.942s] running build
+[1.942s] running build_py
+[1.943s] creating /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build
+[1.943s] creating /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build/lib
+[1.943s] creating /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build/lib/path_drawing
+[1.943s] copying path_drawing/__init__.py -> /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build/lib/path_drawing
+[1.946s] running install
+[1.947s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.947s]   warnings.warn(
+[1.948s] running install_lib
+[1.948s] creating /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages/path_drawing
+[1.948s] copying /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build/lib/path_drawing/__init__.py -> /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages/path_drawing
+[1.949s] byte-compiling /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages/path_drawing/__init__.py to __init__.cpython-310.pyc
+[1.949s] running install_data
+[1.949s] creating /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/share/ament_index
+[1.950s] creating /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/share/ament_index/resource_index
+[1.951s] creating /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/share/ament_index/resource_index/packages
+[1.955s] copying resource/path_drawing -> /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/share/ament_index/resource_index/packages
+[1.955s] copying package.xml -> /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/share/path_drawing
+[1.955s] running install_egg_info
+[1.956s] Copying ../../build/path_drawing/path_drawing.egg-info to /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages/path_drawing-0.0.0-py3.10.egg-info
+[1.956s] running install_scripts
+[1.984s] Installing draw_path script to /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/path_drawing
+[1.984s] writing list of installed files to '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/install.log'
+[2.069s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/path_drawing' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/prefix_override:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_drawing build --build-base /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build install --record /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/install.log --single-version-externally-managed

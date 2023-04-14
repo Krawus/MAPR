@@ -1,0 +1,34 @@
+[0.738s] Invoking command in '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student': PYTHONPATH=/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/prefix_override:/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build
+[1.001s] running develop
+[1.004s] /home/krawus/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.004s]   warnings.warn(
+[1.029s] /home/krawus/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.029s]   warnings.warn(
+[1.216s] Invoked command in '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/prefix_override:/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build
+[1.218s] Invoking command in '/home/krawus/Studies/MAPR/lab5/src/mapr_5_student': PYTHONPATH=/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/prefix_override:/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_5_student build --build-base /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build install --record /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/install.log --single-version-externally-managed
+[1.400s] running egg_info
+[1.412s] writing ../../build/mapr_5_student/mapr_5_student.egg-info/PKG-INFO
+[1.412s] writing dependency_links to ../../build/mapr_5_student/mapr_5_student.egg-info/dependency_links.txt
+[1.412s] writing entry points to ../../build/mapr_5_student/mapr_5_student.egg-info/entry_points.txt
+[1.413s] writing requirements to ../../build/mapr_5_student/mapr_5_student.egg-info/requires.txt
+[1.413s] writing top-level names to ../../build/mapr_5_student/mapr_5_student.egg-info/top_level.txt
+[1.438s] reading manifest file '../../build/mapr_5_student/mapr_5_student.egg-info/SOURCES.txt'
+[1.439s] writing manifest file '../../build/mapr_5_student/mapr_5_student.egg-info/SOURCES.txt'
+[1.439s] running build
+[1.439s] running build_py
+[1.439s] copying mapr_5_student/astar.py -> /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student
+[1.440s] running install
+[1.440s] /home/krawus/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.440s]   warnings.warn(
+[1.444s] running install_lib
+[1.457s] copying /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build/lib/mapr_5_student/astar.py -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student
+[1.458s] byte-compiling /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student/astar.py to astar.cpython-310.pyc
+[1.459s] running install_data
+[1.472s] running install_egg_info
+[1.484s] removing '/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student-1.0.0-py3.10.egg-info' (and everything under it)
+[1.485s] Copying ../../build/mapr_5_student/mapr_5_student.egg-info to /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student-1.0.0-py3.10.egg-info
+[1.486s] running install_scripts
+[1.627s] Installing astar script to /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/mapr_5_student
+[1.628s] Installing points script to /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/mapr_5_student
+[1.628s] writing list of installed files to '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/install.log'
+[1.654s] Invoked command in '/home/krawus/Studies/MAPR/lab5/src/mapr_5_student' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/prefix_override:/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_5_student build --build-base /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build install --record /home/krawus/Studies/MAPR/lab5/build/mapr_5_student/install.log --single-version-externally-managed

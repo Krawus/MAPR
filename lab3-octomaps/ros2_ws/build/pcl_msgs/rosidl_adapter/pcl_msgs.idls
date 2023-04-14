@@ -1,0 +1,5 @@
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs/rosidl_adapter/pcl_msgs:msg/ModelCoefficients.idl
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs/rosidl_adapter/pcl_msgs:msg/PointIndices.idl
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs/rosidl_adapter/pcl_msgs:msg/PolygonMesh.idl
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs/rosidl_adapter/pcl_msgs:msg/Vertices.idl
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs/rosidl_adapter/pcl_msgs:srv/UpdateFilename.idl

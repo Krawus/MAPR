@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing map_manipulation.egg-info/PKG-INFO
+writing dependency_links to map_manipulation.egg-info/dependency_links.txt
+writing entry points to map_manipulation.egg-info/entry_points.txt
+writing requirements to map_manipulation.egg-info/requires.txt
+writing top-level names to map_manipulation.egg-info/top_level.txt
+reading manifest file 'map_manipulation.egg-info/SOURCES.txt'
+writing manifest file 'map_manipulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/krawus/Studies/MAPR/lab2/ros2_ws/install/map_manipulation/lib/python3.10/site-packages/map-manipulation.egg-link (link to .)
+Installing map_manipulator script to /home/krawus/Studies/MAPR/lab2/ros2_ws/install/map_manipulation/lib/map_manipulation
+
+Installed /home/krawus/Studies/MAPR/lab2/ros2_ws/build/map_manipulation
+running install_data

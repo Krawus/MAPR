@@ -1,0 +1,26 @@
+[3.564s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/path_drawing': PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/prefix_override:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_drawing build --build-base /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build install --record /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/install.log --single-version-externally-managed
+[4.602s] running egg_info
+[4.605s] writing ../../build/path_drawing/path_drawing.egg-info/PKG-INFO
+[4.606s] writing dependency_links to ../../build/path_drawing/path_drawing.egg-info/dependency_links.txt
+[4.607s] writing entry points to ../../build/path_drawing/path_drawing.egg-info/entry_points.txt
+[4.607s] writing requirements to ../../build/path_drawing/path_drawing.egg-info/requires.txt
+[4.608s] writing top-level names to ../../build/path_drawing/path_drawing.egg-info/top_level.txt
+[4.616s] reading manifest file '../../build/path_drawing/path_drawing.egg-info/SOURCES.txt'
+[4.619s] writing manifest file '../../build/path_drawing/path_drawing.egg-info/SOURCES.txt'
+[4.620s] running build
+[4.620s] running build_py
+[4.620s] copying path_drawing/path_publisher_function.py -> /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build/lib/path_drawing
+[4.621s] running install
+[4.622s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.622s]   warnings.warn(
+[4.623s] running install_lib
+[4.626s] copying /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build/lib/path_drawing/path_publisher_function.py -> /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages/path_drawing
+[4.627s] byte-compiling /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages/path_drawing/path_publisher_function.py to path_publisher_function.cpython-310.pyc
+[4.628s] running install_data
+[4.630s] running install_egg_info
+[4.636s] removing '/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages/path_drawing-0.0.0-py3.10.egg-info' (and everything under it)
+[4.637s] Copying ../../build/path_drawing/path_drawing.egg-info to /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages/path_drawing-0.0.0-py3.10.egg-info
+[4.640s] running install_scripts
+[4.730s] Installing draw_path script to /home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/path_drawing
+[4.730s] writing list of installed files to '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/install.log'
+[4.854s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/src/path_drawing' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/prefix_override:/home/krawus/Studies/MAPR/lab3/ros2_ws/install/path_drawing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_drawing build --build-base /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/build install --record /home/krawus/Studies/MAPR/lab3/ros2_ws/build/path_drawing/install.log --single-version-externally-managed

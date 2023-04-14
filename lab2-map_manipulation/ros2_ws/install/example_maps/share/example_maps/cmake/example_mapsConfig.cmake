@@ -1,0 +1,1 @@
+/home/krawus/Studies/MAPR/lab2/ros2_ws/build/example_maps/ament_cmake_core/example_mapsConfig.cmake

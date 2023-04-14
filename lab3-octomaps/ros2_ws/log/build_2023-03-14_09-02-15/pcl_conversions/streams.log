@@ -1,0 +1,85 @@
+[0.010s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions': AMENT_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/pcl_conversions -DCMAKE_INSTALL_PREFIX=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions
+[0.073s] -- The C compiler identification is GNU 11.3.0
+[0.131s] -- The CXX compiler identification is GNU 11.3.0
+[0.139s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.323s] -- Detecting CXX compiler ABI info - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.333s] -- Detecting CXX compile features - done
+[0.336s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.511s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.619s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.630s] -- Found message_filters: 4.3.2 (/opt/ros/humble/share/message_filters/cmake)
+[0.689s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.704s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.821s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.824s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.957s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.987s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.050s] -- Looking for pthread.h
+[1.125s] -- Looking for pthread.h - found
+[1.125s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.200s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.201s] -- Found Threads: TRUE  
+[1.419s] -- Checking for module 'eigen3'
+[1.432s] --   Found eigen3, version 3.4.0
+[1.467s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.467s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.540s] -- Checking for module 'libusb-1.0'
+[1.553s] --   Found libusb-1.0, version 1.0.25
+[1.586s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.587s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.640s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.648s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.649s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.650s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.651s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.652s] -- Found pcl_msgs: 1.0.0 (/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/share/pcl_msgs/cmake)
+[2.932s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.937s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.025s] -- Configuring done
+[3.059s] -- Generating done
+[3.062s] -- Build files have been written to: /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions
+[3.078s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions' returned '0': AMENT_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/krawus/Studies/MAPR/lab3/ros2_ws/src/perception_pcl/pcl_conversions -DCMAKE_INSTALL_PREFIX=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions
+[3.080s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions': AMENT_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions -- -j8 -l8
+[3.136s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.136s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.843s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.883s] [ 50%] Built target gtest_main
+[6.045s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.113s] [ 66%] Built target gtest
+[6.135s] [ 83%] [32mBuilding CXX object CMakeFiles/pcl_conversions-test.dir/test/test_pcl_conversions.cpp.o[0m
+[13.040s] [100%] [32m[1mLinking CXX executable pcl_conversions-test[0m
+[14.719s] [100%] Built target pcl_conversions-test
+[14.731s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions' returned '0': AMENT_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions -- -j8 -l8
+[14.761s] Invoking command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions': AMENT_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions
+[14.769s] -- Install configuration: ""
+[14.769s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/include/pcl_conversions/
+[14.769s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/include/pcl_conversions//pcl_conversions.h
+[14.769s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/ament_index/resource_index/package_run_dependencies/pcl_conversions
+[14.769s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/ament_index/resource_index/parent_prefix_path/pcl_conversions
+[14.769s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/environment/ament_prefix_path.sh
+[14.769s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/environment/ament_prefix_path.dsv
+[14.770s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/environment/path.sh
+[14.770s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/environment/path.dsv
+[14.770s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/local_setup.bash
+[14.770s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/local_setup.sh
+[14.770s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/local_setup.zsh
+[14.770s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/local_setup.dsv
+[14.770s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.dsv
+[14.771s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/ament_index/resource_index/packages/pcl_conversions
+[14.771s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.771s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.772s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake
+[14.772s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+[14.772s] -- Installing: /home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.xml
+[14.776s] Invoked command in '/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions' returned '0': AMENT_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krawus/Studies/MAPR/lab3/ros2_ws/install/pcl_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_conversions

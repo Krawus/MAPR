@@ -1,0 +1,1 @@
+/home/krawus/Studies/MAPR/lab3/ros2_ws/build/pcl_msgs/rosidl_typesupport_fastrtps_c/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_fastrtps_c.h

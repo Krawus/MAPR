@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (mapr_5_student) JobQueued: {'identifier': 'mapr_5_student', 'dependencies': OrderedDict()}
+[0.000120] (mapr_5_student) JobStarted: {'identifier': 'mapr_5_student'}
+[0.098903] (-) TimerEvent: {}
+[0.199137] (-) TimerEvent: {}
+[0.299369] (-) TimerEvent: {}
+[0.399611] (-) TimerEvent: {}
+[0.481830] (mapr_5_student) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/build', '--no-deps', 'install_data'], 'cwd': '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'krawus', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/krawus', 'OLDPWD': '/home/krawus/Studies/MAPR/lab5/src', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3204', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/krawus/Studies/MAPR/lab4_5/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'krawus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'krawus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/krawus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/2998,unix/pop-os:/tmp/.ICE-unix/2998', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/47c78c4d_d669_402b_880c_eec1a90c9af1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/krawus/Studies/MAPR/lab4_5/ros2_ws/install/mapr_4_student:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/krawus/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/krawus/Studies/MAPR/lab5/build/mapr_5_student/prefix_override:/home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages:/home/krawus/Studies/MAPR/lab4_5/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.499717] (-) TimerEvent: {}
+[0.599937] (-) TimerEvent: {}
+[0.691861] (mapr_5_student) StdoutLine: {'line': b'running develop\n'}
+[0.693471] (mapr_5_student) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.693570] (mapr_5_student) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.694539] (mapr_5_student) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.694622] (mapr_5_student) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.700033] (-) TimerEvent: {}
+[0.743446] (mapr_5_student) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[0.743574] (mapr_5_student) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.743826] (mapr_5_student) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[0.743975] (mapr_5_student) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.800153] (-) TimerEvent: {}
+[0.830650] (mapr_5_student) StdoutLine: {'line': b'running egg_info\n'}
+[0.830862] (mapr_5_student) StdoutLine: {'line': b'creating mapr_5_student.egg-info\n'}
+[0.831018] (mapr_5_student) StdoutLine: {'line': b'writing mapr_5_student.egg-info/PKG-INFO\n'}
+[0.831342] (mapr_5_student) StdoutLine: {'line': b'writing dependency_links to mapr_5_student.egg-info/dependency_links.txt\n'}
+[0.831571] (mapr_5_student) StdoutLine: {'line': b'writing entry points to mapr_5_student.egg-info/entry_points.txt\n'}
+[0.831760] (mapr_5_student) StdoutLine: {'line': b'writing requirements to mapr_5_student.egg-info/requires.txt\n'}
+[0.831846] (mapr_5_student) StdoutLine: {'line': b'writing top-level names to mapr_5_student.egg-info/top_level.txt\n'}
+[0.831981] (mapr_5_student) StdoutLine: {'line': b"writing manifest file 'mapr_5_student.egg-info/SOURCES.txt'\n"}
+[0.833240] (mapr_5_student) StdoutLine: {'line': b"reading manifest file 'mapr_5_student.egg-info/SOURCES.txt'\n"}
+[0.833765] (mapr_5_student) StdoutLine: {'line': b"writing manifest file 'mapr_5_student.egg-info/SOURCES.txt'\n"}
+[0.834847] (mapr_5_student) StdoutLine: {'line': b'running build_ext\n'}
+[0.835032] (mapr_5_student) StdoutLine: {'line': b'Creating /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/python3.10/site-packages/mapr-5-student.egg-link (link to .)\n'}
+[0.835657] (mapr_5_student) StdoutLine: {'line': b'Installing astar script to /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/mapr_5_student\n'}
+[0.835812] (mapr_5_student) StdoutLine: {'line': b'Installing points script to /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/lib/mapr_5_student\n'}
+[0.835996] (mapr_5_student) StdoutLine: {'line': b'\n'}
+[0.836082] (mapr_5_student) StdoutLine: {'line': b'Installed /home/krawus/Studies/MAPR/lab5/build/mapr_5_student\n'}
+[0.836146] (mapr_5_student) StdoutLine: {'line': b'running install_data\n'}
+[0.836276] (mapr_5_student) StdoutLine: {'line': b'creating /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/launch\n'}
+[0.836368] (mapr_5_student) StdoutLine: {'line': b'copying launch/astar_launch.py -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/launch\n'}
+[0.836434] (mapr_5_student) StdoutLine: {'line': b'copying launch/map_launch.py -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/launch\n'}
+[0.836566] (mapr_5_student) StdoutLine: {'line': b'creating /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/maps\n'}
+[0.836652] (mapr_5_student) StdoutLine: {'line': b'copying maps/map.pgm -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/maps\n'}
+[0.836715] (mapr_5_student) StdoutLine: {'line': b'copying maps/map.yaml -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/maps\n'}
+[0.836804] (mapr_5_student) StdoutLine: {'line': b'copying maps/map_small.pgm -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/maps\n'}
+[0.836904] (mapr_5_student) StdoutLine: {'line': b'copying maps/map_small.yaml -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/maps\n'}
+[0.836979] (mapr_5_student) StdoutLine: {'line': b'creating /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/rviz\n'}
+[0.837032] (mapr_5_student) StdoutLine: {'line': b'copying rviz/rviz_cfg.rviz -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student/rviz\n'}
+[0.837136] (mapr_5_student) StdoutLine: {'line': b'creating /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/ament_index\n'}
+[0.837223] (mapr_5_student) StdoutLine: {'line': b'creating /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/ament_index/resource_index\n'}
+[0.837307] (mapr_5_student) StdoutLine: {'line': b'creating /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/ament_index/resource_index/packages\n'}
+[0.837389] (mapr_5_student) StdoutLine: {'line': b'copying resource/mapr_5_student -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/ament_index/resource_index/packages\n'}
+[0.837476] (mapr_5_student) StdoutLine: {'line': b'copying package.xml -> /home/krawus/Studies/MAPR/lab5/install/mapr_5_student/share/mapr_5_student\n'}
+[0.860637] (mapr_5_student) CommandEnded: {'returncode': 0}
+[0.873644] (mapr_5_student) JobEnded: {'identifier': 'mapr_5_student', 'rc': 0}
+[0.874324] (-) EventReactorShutdown: {}

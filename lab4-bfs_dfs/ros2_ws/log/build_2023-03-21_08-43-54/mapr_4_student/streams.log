@@ -1,0 +1,69 @@
+[0.425s] Invoking command in '/home/krawus/Studies/MAPR/lab4/ros2_ws/src/mapr_4_student': PYTHONPATH=/home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/prefix_override:/home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_4_student build --build-base /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build install --record /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/install.log --single-version-externally-managed
+[0.573s] running egg_info
+[0.573s] creating ../../build/mapr_4_student/mapr_4_student.egg-info
+[0.574s] writing ../../build/mapr_4_student/mapr_4_student.egg-info/PKG-INFO
+[0.574s] writing dependency_links to ../../build/mapr_4_student/mapr_4_student.egg-info/dependency_links.txt
+[0.574s] writing entry points to ../../build/mapr_4_student/mapr_4_student.egg-info/entry_points.txt
+[0.574s] writing requirements to ../../build/mapr_4_student/mapr_4_student.egg-info/requires.txt
+[0.574s] writing top-level names to ../../build/mapr_4_student/mapr_4_student.egg-info/top_level.txt
+[0.574s] writing manifest file '../../build/mapr_4_student/mapr_4_student.egg-info/SOURCES.txt'
+[0.575s] reading manifest file '../../build/mapr_4_student/mapr_4_student.egg-info/SOURCES.txt'
+[0.576s] writing manifest file '../../build/mapr_4_student/mapr_4_student.egg-info/SOURCES.txt'
+[0.577s] running build
+[0.577s] running build_py
+[0.577s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build
+[0.577s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib
+[0.577s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.577s] copying mapr_4_student/bfs.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.577s] copying mapr_4_student/bfs_backtrace.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.577s] copying mapr_4_student/__init__.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.577s] copying mapr_4_student/dfs_backtrace.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.577s] copying mapr_4_student/grid_map.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.577s] copying mapr_4_student/dfs.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.578s] copying mapr_4_student/points.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student
+[0.578s] running install
+[0.578s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.578s]   warnings.warn(
+[0.578s] running install_lib
+[0.578s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.578s] copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/bfs.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.578s] copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/bfs_backtrace.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.579s] copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/__init__.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.579s] copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/dfs_backtrace.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.579s] copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/grid_map.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.579s] copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/dfs.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.579s] copying /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build/lib/mapr_4_student/points.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student
+[0.579s] byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/bfs.py to bfs.cpython-310.pyc
+[0.580s] byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/bfs_backtrace.py to bfs_backtrace.cpython-310.pyc
+[0.580s] byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/__init__.py to __init__.cpython-310.pyc
+[0.580s] byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/dfs_backtrace.py to dfs_backtrace.cpython-310.pyc
+[0.580s] byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/grid_map.py to grid_map.cpython-310.pyc
+[0.581s] byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/dfs.py to dfs.cpython-310.pyc
+[0.581s] byte-compiling /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student/points.py to points.cpython-310.pyc
+[0.582s] running install_data
+[0.582s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/launch
+[0.582s] copying launch/bfs_launch.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/launch
+[0.582s] copying launch/dfs_launch.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/launch
+[0.582s] copying launch/map_launch.py -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/launch
+[0.582s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/maps
+[0.583s] copying maps/map.pgm -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/maps
+[0.583s] copying maps/map.yaml -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/maps
+[0.583s] copying maps/map_small.pgm -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/maps
+[0.583s] copying maps/map_small.yaml -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/maps
+[0.583s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/rviz
+[0.583s] copying rviz/rviz_cfg.rviz -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student/rviz
+[0.583s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/ament_index
+[0.583s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/ament_index/resource_index
+[0.583s] creating /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/ament_index/resource_index/packages
+[0.583s] copying resource/mapr_4_student -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/ament_index/resource_index/packages
+[0.583s] copying package.xml -> /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/share/mapr_4_student
+[0.583s] running install_egg_info
+[0.584s] Copying ../../build/mapr_4_student/mapr_4_student.egg-info to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages/mapr_4_student-1.0.0-py3.10.egg-info
+[0.585s] running install_scripts
+[0.601s] Installing bfs script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.601s] Installing bfs_backtrace script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.601s] Installing dfs script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.601s] Installing dfs_backtrace script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.601s] Installing points script to /home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/mapr_4_student
+[0.601s] writing list of installed files to '/home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/install.log'
+[0.619s] Invoked command in '/home/krawus/Studies/MAPR/lab4/ros2_ws/src/mapr_4_student' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/prefix_override:/home/krawus/Studies/MAPR/lab4/ros2_ws/install/mapr_4_student/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_4_student build --build-base /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/build install --record /home/krawus/Studies/MAPR/lab4/ros2_ws/build/mapr_4_student/install.log --single-version-externally-managed

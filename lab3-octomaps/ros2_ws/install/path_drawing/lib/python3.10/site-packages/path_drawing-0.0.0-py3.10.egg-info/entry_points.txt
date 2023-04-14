@@ -1,0 +1,3 @@
+[console_scripts]
+draw_path = path_drawing.path_publisher_function:main
+
