@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/mapr_5_student/mapr_5_student.egg-info
+writing ../../build/mapr_5_student/mapr_5_student.egg-info/PKG-INFO
+writing dependency_links to ../../build/mapr_5_student/mapr_5_student.egg-info/dependency_links.txt
+writing entry points to ../../build/mapr_5_student/mapr_5_student.egg-info/entry_points.txt
+writing requirements to ../../build/mapr_5_student/mapr_5_student.egg-info/requires.txt
+writing top-level names to ../../build/mapr_5_student/mapr_5_student.egg-info/top_level.txt
+writing manifest file '../../build/mapr_5_student/mapr_5_student.egg-info/SOURCES.txt'
+reading manifest file '../../build/mapr_5_student/mapr_5_student.egg-info/SOURCES.txt'
+writing manifest file '../../build/mapr_5_student/mapr_5_student.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/krawus/Studies/MAPR/lab5-A_asterisk/build/mapr_5_student/build
+creating /home/krawus/Studies/MAPR/lab5-A_asterisk/build/mapr_5_student/build/lib
+creating /home/krawus/Studies/MAPR/lab5-A_asterisk/build/mapr_5_student/build/lib/mapr_5_student
+copying mapr_5_student/astar.py -> /home/krawus/Studies/MAPR/lab5-A_asterisk/build/mapr_5_student/build/lib/mapr_5_student
+copying mapr_5_student/__init__.py -> /home/krawus/Studies/MAPR/lab5-A_asterisk/build/mapr_5_student/build/lib/mapr_5_student
+copying mapr_5_student/grid_map.py -> /home/krawus/Studies/MAPR/lab5-A_asterisk/build/mapr_5_student/build/lib/mapr_5_student
+copying mapr_5_student/points.py -> /home/krawus/Studies/MAPR/lab5-A_asterisk/build/mapr_5_student/build/lib/mapr_5_student
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/krawus/Studies/MAPR/lab5-A_asterisk/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student-1.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mapr_5_student/mapr_5_student.egg-info to /home/krawus/Studies/MAPR/lab5-A_asterisk/install/mapr_5_student/lib/python3.10/site-packages/mapr_5_student-1.0.0-py3.10.egg-info
+running install_scripts
+Installing astar script to /home/krawus/Studies/MAPR/lab5-A_asterisk/install/mapr_5_student/lib/mapr_5_student
+Installing points script to /home/krawus/Studies/MAPR/lab5-A_asterisk/install/mapr_5_student/lib/mapr_5_student
+writing list of installed files to '/home/krawus/Studies/MAPR/lab5-A_asterisk/build/mapr_5_student/install.log'

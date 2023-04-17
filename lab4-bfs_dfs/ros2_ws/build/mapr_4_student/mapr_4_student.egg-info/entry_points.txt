@@ -4,4 +4,3 @@ bfs_backtrace = mapr_4_student.bfs_backtrace:main
 dfs = mapr_4_student.dfs:main
 dfs_backtrace = mapr_4_student.dfs_backtrace:main
 points = mapr_4_student.points:main
-
