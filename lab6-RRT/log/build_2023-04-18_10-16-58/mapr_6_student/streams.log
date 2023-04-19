@@ -1,0 +1,42 @@
+[0.580s] Invoking command in '/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student': PYTHONPATH=/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/prefix_override:/home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/build --no-deps install_data
+[0.797s] running develop
+[0.806s] /home/krawus/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.806s]   warnings.warn(
+[0.832s] /home/krawus/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.832s]   warnings.warn(
+[0.942s] running egg_info
+[0.942s] creating mapr_6_student.egg-info
+[0.950s] writing mapr_6_student.egg-info/PKG-INFO
+[0.950s] writing dependency_links to mapr_6_student.egg-info/dependency_links.txt
+[0.950s] writing entry points to mapr_6_student.egg-info/entry_points.txt
+[0.950s] writing requirements to mapr_6_student.egg-info/requires.txt
+[0.951s] writing top-level names to mapr_6_student.egg-info/top_level.txt
+[0.951s] writing manifest file 'mapr_6_student.egg-info/SOURCES.txt'
+[0.966s] reading manifest file 'mapr_6_student.egg-info/SOURCES.txt'
+[0.967s] writing manifest file 'mapr_6_student.egg-info/SOURCES.txt'
+[0.975s] running build_ext
+[0.976s] Creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages/mapr-6-student.egg-link (link to .)
+[0.977s] Installing points script to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/mapr_6_student
+[0.977s] Installing rrt script to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/mapr_6_student
+[0.977s] Installing rrt_vertices script to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/mapr_6_student
+[0.977s] 
+[0.977s] Installed /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student
+[0.977s] running install_data
+[0.978s] creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/launch
+[0.978s] copying launch/rrt_launch.py -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/launch
+[0.978s] copying launch/map_launch.py -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/launch
+[0.978s] creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+[0.978s] copying maps/map_medium.pgm -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+[0.978s] copying maps/map.pgm -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+[0.978s] copying maps/map.yaml -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+[0.978s] copying maps/map_small.pgm -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+[0.979s] copying maps/map_small.yaml -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+[0.979s] copying maps/map_medium.yaml -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+[0.979s] creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/rviz
+[0.979s] copying rviz/rviz_cfg.rviz -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/rviz
+[0.979s] creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/ament_index
+[0.979s] creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/ament_index/resource_index
+[0.979s] creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/ament_index/resource_index/packages
+[0.979s] copying resource/mapr_6_student -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/ament_index/resource_index/packages
+[0.979s] copying package.xml -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student
+[1.002s] Invoked command in '/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/prefix_override:/home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/build --no-deps install_data

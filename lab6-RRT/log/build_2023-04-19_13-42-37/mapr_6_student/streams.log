@@ -1,0 +1,35 @@
+[0.701s] Invoking command in '/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student': PYTHONPATH=/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/prefix_override:/home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/build
+[0.996s] running develop
+[0.996s] /home/krawus/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.996s]   warnings.warn(
+[1.024s] /home/krawus/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.024s]   warnings.warn(
+[1.235s] Invoked command in '/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/prefix_override:/home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/build
+[1.237s] Invoking command in '/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student': PYTHONPATH=/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/prefix_override:/home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_6_student build --build-base /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/build install --record /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/install.log --single-version-externally-managed
+[1.422s] running egg_info
+[1.435s] writing ../../build/mapr_6_student/mapr_6_student.egg-info/PKG-INFO
+[1.435s] writing dependency_links to ../../build/mapr_6_student/mapr_6_student.egg-info/dependency_links.txt
+[1.436s] writing entry points to ../../build/mapr_6_student/mapr_6_student.egg-info/entry_points.txt
+[1.436s] writing requirements to ../../build/mapr_6_student/mapr_6_student.egg-info/requires.txt
+[1.436s] writing top-level names to ../../build/mapr_6_student/mapr_6_student.egg-info/top_level.txt
+[1.464s] reading manifest file '../../build/mapr_6_student/mapr_6_student.egg-info/SOURCES.txt'
+[1.465s] writing manifest file '../../build/mapr_6_student/mapr_6_student.egg-info/SOURCES.txt'
+[1.465s] running build
+[1.465s] running build_py
+[1.465s] copying mapr_6_student/rrt_vertices.py -> /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/build/lib/mapr_6_student
+[1.466s] running install
+[1.466s] /home/krawus/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.466s]   warnings.warn(
+[1.472s] running install_lib
+[1.486s] copying /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/build/lib/mapr_6_student/rrt_vertices.py -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages/mapr_6_student
+[1.487s] byte-compiling /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages/mapr_6_student/rrt_vertices.py to rrt_vertices.cpython-310.pyc
+[1.488s] running install_data
+[1.502s] running install_egg_info
+[1.516s] removing '/home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages/mapr_6_student-1.0.0-py3.10.egg-info' (and everything under it)
+[1.517s] Copying ../../build/mapr_6_student/mapr_6_student.egg-info to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages/mapr_6_student-1.0.0-py3.10.egg-info
+[1.518s] running install_scripts
+[1.679s] Installing points script to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/mapr_6_student
+[1.679s] Installing rrt script to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/mapr_6_student
+[1.679s] Installing rrt_vertices script to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/mapr_6_student
+[1.679s] writing list of installed files to '/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/install.log'
+[1.701s] Invoked command in '/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student' returned '0': PYTHONPATH=/home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/prefix_override:/home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mapr_6_student build --build-base /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/build install --record /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student/install.log --single-version-externally-managed

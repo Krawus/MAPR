@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000698] (mapr_6_student) JobQueued: {'identifier': 'mapr_6_student', 'dependencies': OrderedDict()}
+[0.000732] (mapr_6_student) JobStarted: {'identifier': 'mapr_6_student'}
+[0.099792] (-) TimerEvent: {}
+[0.147525] (mapr_6_student) JobEnded: {'identifier': 'mapr_6_student', 'rc': 0}
+[0.148264] (-) EventReactorShutdown: {}

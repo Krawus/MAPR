@@ -1,0 +1,56 @@
+[0.675s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/krawus/Studies/MAPR/lab6-RRT']
+[0.675s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/krawus/Studies/MAPR/lab6-RRT'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9735ec0700>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f9735e8b7f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f9735e8b7f0>>)
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.735s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/krawus/Studies/MAPR/lab6-RRT'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extension 'ignore'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extension 'ignore_ament_install'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extensions ['colcon_pkg']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extension 'colcon_pkg'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extensions ['colcon_meta']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extension 'colcon_meta'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extensions ['ros']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/build) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/build) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/build) ignored
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/install) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/install) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/install) ignored
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/log) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/log) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/log) ignored
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extension 'ros'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extensions ['cmake', 'python']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extension 'cmake'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extension 'python'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extensions ['python_setup_py']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src) by extension 'python_setup_py'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student) by extension 'ros'
+[0.799s] DEBUG:colcon.colcon_core.package_identification:Package '/home/krawus/Studies/MAPR/lab6-RRT/src/mapr_6_student' with type 'ros.ament_python' and name 'mapr_6_student'
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

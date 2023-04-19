@@ -1,0 +1,36 @@
+running develop
+running egg_info
+creating mapr_6_student.egg-info
+writing mapr_6_student.egg-info/PKG-INFO
+writing dependency_links to mapr_6_student.egg-info/dependency_links.txt
+writing entry points to mapr_6_student.egg-info/entry_points.txt
+writing requirements to mapr_6_student.egg-info/requires.txt
+writing top-level names to mapr_6_student.egg-info/top_level.txt
+writing manifest file 'mapr_6_student.egg-info/SOURCES.txt'
+reading manifest file 'mapr_6_student.egg-info/SOURCES.txt'
+writing manifest file 'mapr_6_student.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/python3.10/site-packages/mapr-6-student.egg-link (link to .)
+Installing points script to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/mapr_6_student
+Installing rrt script to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/mapr_6_student
+Installing rrt_vertices script to /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/lib/mapr_6_student
+
+Installed /home/krawus/Studies/MAPR/lab6-RRT/build/mapr_6_student
+running install_data
+creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/launch
+copying launch/rrt_launch.py -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/launch
+copying launch/map_launch.py -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/launch
+creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+copying maps/map_medium.pgm -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+copying maps/map.pgm -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+copying maps/map.yaml -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+copying maps/map_small.pgm -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+copying maps/map_small.yaml -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+copying maps/map_medium.yaml -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/maps
+creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/rviz
+copying rviz/rviz_cfg.rviz -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student/rviz
+creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/ament_index
+creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/ament_index/resource_index
+creating /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/ament_index/resource_index/packages
+copying resource/mapr_6_student -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/ament_index/resource_index/packages
+copying package.xml -> /home/krawus/Studies/MAPR/lab6-RRT/install/mapr_6_student/share/mapr_6_student

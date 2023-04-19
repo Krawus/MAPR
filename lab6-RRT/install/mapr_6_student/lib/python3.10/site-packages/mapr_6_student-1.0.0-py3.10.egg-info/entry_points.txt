@@ -1,0 +1,4 @@
+[console_scripts]
+points = mapr_6_student.points:main
+rrt = mapr_6_student.rrt:main
+rrt_vertices = mapr_6_student.rrt_vertices:main
