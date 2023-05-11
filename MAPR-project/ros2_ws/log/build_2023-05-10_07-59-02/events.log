@@ -1,0 +1,988 @@
+[0.000000] (-) TimerEvent: {}
+[0.000158] (ur_dashboard_msgs) JobQueued: {'identifier': 'ur_dashboard_msgs', 'dependencies': OrderedDict()}
+[0.000186] (ur_moveit_config) JobQueued: {'identifier': 'ur_moveit_config', 'dependencies': OrderedDict()}
+[0.000204] (ur_controllers) JobQueued: {'identifier': 'ur_controllers', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/MAPR-project/install/ur_dashboard_msgs')])}
+[0.000224] (ur_bringup) JobQueued: {'identifier': 'ur_bringup', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/MAPR-project/install/ur_dashboard_msgs'), ('ur_controllers', '/home/MAPR-project/install/ur_controllers')])}
+[0.000241] (ur_robot_driver) JobQueued: {'identifier': 'ur_robot_driver', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/MAPR-project/install/ur_dashboard_msgs'), ('ur_controllers', '/home/MAPR-project/install/ur_controllers')])}
+[0.000261] (ur_calibration) JobQueued: {'identifier': 'ur_calibration', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/MAPR-project/install/ur_dashboard_msgs'), ('ur_controllers', '/home/MAPR-project/install/ur_controllers'), ('ur_robot_driver', '/home/MAPR-project/install/ur_robot_driver')])}
+[0.000282] (ur) JobQueued: {'identifier': 'ur', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/MAPR-project/install/ur_dashboard_msgs'), ('ur_moveit_config', '/home/MAPR-project/install/ur_moveit_config'), ('ur_controllers', '/home/MAPR-project/install/ur_controllers'), ('ur_robot_driver', '/home/MAPR-project/install/ur_robot_driver'), ('ur_calibration', '/home/MAPR-project/install/ur_calibration')])}
+[0.000328] (ur_dashboard_msgs) JobStarted: {'identifier': 'ur_dashboard_msgs'}
+[0.022921] (ur_moveit_config) JobStarted: {'identifier': 'ur_moveit_config'}
+[0.035478] (ur_dashboard_msgs) JobProgress: {'identifier': 'ur_dashboard_msgs', 'progress': 'cmake'}
+[0.036255] (ur_dashboard_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/MAPR-project/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', '-DCMAKE_INSTALL_PREFIX=/home/MAPR-project/install/ur_dashboard_msgs'], 'cwd': '/home/MAPR-project/build/ur_dashboard_msgs', 'env': OrderedDict([('USER', 'root'), ('HOSTNAME', 'pop-os'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/MAPR-project/src'), ('TERM_PROGRAM_VERSION', '1.78.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-bc998aca-57c6-47ac-9123-92d5e066747a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-032de77ac4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/MAPR-project/build/ur_dashboard_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045578] (ur_moveit_config) JobProgress: {'identifier': 'ur_moveit_config', 'progress': 'cmake'}
+[0.046060] (ur_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '/home/MAPR-project/src/Universal_Robots_ROS2_Driver/ur_moveit_config', '-DCMAKE_INSTALL_PREFIX=/home/MAPR-project/install/ur_moveit_config'], 'cwd': '/home/MAPR-project/build/ur_moveit_config', 'env': OrderedDict([('USER', 'root'), ('HOSTNAME', 'pop-os'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/MAPR-project/src'), ('TERM_PROGRAM_VERSION', '1.78.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-bc998aca-57c6-47ac-9123-92d5e066747a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-032de77ac4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/MAPR-project/build/ur_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099089] (-) TimerEvent: {}
+[0.199410] (-) TimerEvent: {}
+[0.203937] (ur_dashboard_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.204984] (ur_moveit_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.297386] (ur_dashboard_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.297755] (ur_moveit_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.299502] (-) TimerEvent: {}
+[0.316239] (ur_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.316489] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.396885] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.397735] (ur_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399607] (-) TimerEvent: {}
+[0.405907] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.408040] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.408864] (ur_moveit_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.409079] (ur_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.409391] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.410749] (ur_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.415829] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.416975] (ur_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499782] (-) TimerEvent: {}
+[0.509698] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.511660] (ur_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.520806] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.521077] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.521561] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.524662] (ur_moveit_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.524918] (ur_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.525304] (ur_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.532536] (ur_moveit_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.532748] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599924] (-) TimerEvent: {}
+[0.700310] (-) TimerEvent: {}
+[0.799547] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.800193] (ur_moveit_config) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.800305] (-) TimerEvent: {}
+[0.900510] (-) TimerEvent: {}
+[0.919601] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.926809] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.942845] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.000618] (-) TimerEvent: {}
+[1.014964] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.065254] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[1.086100] (ur_moveit_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.090515] (ur_moveit_config) StdoutLine: {'line': b'-- Generating done\n'}
+[1.091520] (ur_moveit_config) StdoutLine: {'line': b'-- Build files have been written to: /home/MAPR-project/build/ur_moveit_config\n'}
+[1.095437] (ur_moveit_config) CommandEnded: {'returncode': 0}
+[1.095888] (ur_moveit_config) JobProgress: {'identifier': 'ur_moveit_config', 'progress': 'build'}
+[1.096913] (ur_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/MAPR-project/build/ur_moveit_config', '--', '-j8', '-l8'], 'cwd': '/home/MAPR-project/build/ur_moveit_config', 'env': OrderedDict([('USER', 'root'), ('HOSTNAME', 'pop-os'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/MAPR-project/src'), ('TERM_PROGRAM_VERSION', '1.78.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-bc998aca-57c6-47ac-9123-92d5e066747a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-032de77ac4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/MAPR-project/build/ur_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.100707] (-) TimerEvent: {}
+[1.165108] (ur_moveit_config) StdoutLine: {'line': b'Built target ament_cmake_python_copy_ur_moveit_config\n'}
+[1.200847] (-) TimerEvent: {}
+[1.301088] (-) TimerEvent: {}
+[1.401329] (-) TimerEvent: {}
+[1.466990] (ur_moveit_config) StdoutLine: {'line': b'running egg_info\n'}
+[1.467596] (ur_moveit_config) StdoutLine: {'line': b'creating ur_moveit_config.egg-info\n'}
+[1.467940] (ur_moveit_config) StdoutLine: {'line': b'writing ur_moveit_config.egg-info/PKG-INFO\n'}
+[1.468112] (ur_moveit_config) StdoutLine: {'line': b'writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt\n'}
+[1.468399] (ur_moveit_config) StdoutLine: {'line': b'writing top-level names to ur_moveit_config.egg-info/top_level.txt\n'}
+[1.468611] (ur_moveit_config) StdoutLine: {'line': b"writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'\n"}
+[1.470801] (ur_moveit_config) StdoutLine: {'line': b"reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'\n"}
+[1.471401] (ur_moveit_config) StdoutLine: {'line': b"writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'\n"}
+[1.496050] (ur_moveit_config) StdoutLine: {'line': b'Built target ament_cmake_python_build_ur_moveit_config_egg\n'}
+[1.501417] (-) TimerEvent: {}
+[1.511357] (ur_moveit_config) CommandEnded: {'returncode': 0}
+[1.540867] (ur_moveit_config) JobProgress: {'identifier': 'ur_moveit_config', 'progress': 'install'}
+[1.549604] (ur_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/MAPR-project/build/ur_moveit_config'], 'cwd': '/home/MAPR-project/build/ur_moveit_config', 'env': OrderedDict([('USER', 'root'), ('HOSTNAME', 'pop-os'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/MAPR-project/src'), ('TERM_PROGRAM_VERSION', '1.78.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-bc998aca-57c6-47ac-9123-92d5e066747a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-032de77ac4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/MAPR-project/build/ur_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.557286] (ur_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.557502] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config\n'}
+[1.557661] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml\n'}
+[1.557943] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml\n'}
+[1.558200] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml\n'}
+[1.558388] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml\n'}
+[1.558560] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/launch\n'}
+[1.558674] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py\n'}
+[1.558942] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/rviz\n'}
+[1.559077] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz\n'}
+[1.559263] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/srdf\n'}
+[1.559433] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro\n'}
+[1.559569] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro\n'}
+[1.559824] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh\n'}
+[1.560005] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv\n'}
+[1.560324] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info\n'}
+[1.560495] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/PKG-INFO\n'}
+[1.560667] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/dependency_links.txt\n'}
+[1.560805] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/top_level.txt\n'}
+[1.560954] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/SOURCES.txt\n'}
+[1.561120] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config\n'}
+[1.561247] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py\n'}
+[1.561379] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py\n'}
+[1.593942] (ur_moveit_config) StdoutLine: {'line': b"Listing '/home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...\n"}
+[1.594111] (ur_moveit_config) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...\n"}
+[1.594178] (ur_moveit_config) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...\n"}
+[1.595451] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.598794] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py\n'}
+[1.601530] (-) TimerEvent: {}
+[1.651676] (ur_moveit_config) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...\n"}
+[1.658388] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config\n'}
+[1.658873] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config\n'}
+[1.659162] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh\n'}
+[1.659441] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv\n'}
+[1.659707] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh\n'}
+[1.659962] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv\n'}
+[1.660221] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash\n'}
+[1.660472] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh\n'}
+[1.660717] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh\n'}
+[1.660974] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv\n'}
+[1.661199] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/package.dsv\n'}
+[1.661552] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config\n'}
+[1.661896] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake\n'}
+[1.662131] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake\n'}
+[1.662371] (ur_moveit_config) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/package.xml\n'}
+[1.666783] (ur_moveit_config) CommandEnded: {'returncode': 0}
+[1.701623] (-) TimerEvent: {}
+[1.731783] (ur_moveit_config) JobEnded: {'identifier': 'ur_moveit_config', 'rc': 0}
+[1.801764] (-) TimerEvent: {}
+[1.877644] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.901865] (-) TimerEvent: {}
+[2.002106] (-) TimerEvent: {}
+[2.102390] (-) TimerEvent: {}
+[2.156380] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.179173] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.181621] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.202518] (-) TimerEvent: {}
+[2.205729] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.205932] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.206034] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.206090] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.237651] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.292387] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.302619] (-) TimerEvent: {}
+[2.371918] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.374931] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/MAPR-project/build/ur_dashboard_msgs\n'}
+[2.381588] (ur_dashboard_msgs) CommandEnded: {'returncode': 0}
+[2.382223] (ur_dashboard_msgs) JobProgress: {'identifier': 'ur_dashboard_msgs', 'progress': 'build'}
+[2.383190] (ur_dashboard_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/MAPR-project/build/ur_dashboard_msgs', '--', '-j8', '-l8'], 'cwd': '/home/MAPR-project/build/ur_dashboard_msgs', 'env': OrderedDict([('USER', 'root'), ('HOSTNAME', 'pop-os'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/MAPR-project/src'), ('TERM_PROGRAM_VERSION', '1.78.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-bc998aca-57c6-47ac-9123-92d5e066747a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-032de77ac4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/MAPR-project/build/ur_dashboard_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.402733] (-) TimerEvent: {}
+[2.437325] (ur_dashboard_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.449844] (ur_dashboard_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.461437] (ur_dashboard_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_ur_dashboard_msgs\n'}
+[2.502826] (-) TimerEvent: {}
+[2.603143] (-) TimerEvent: {}
+[2.703413] (-) TimerEvent: {}
+[2.803693] (-) TimerEvent: {}
+[2.839854] (ur_dashboard_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.840666] (ur_dashboard_msgs) StdoutLine: {'line': b'creating ur_dashboard_msgs.egg-info\n'}
+[2.841261] (ur_dashboard_msgs) StdoutLine: {'line': b'writing ur_dashboard_msgs.egg-info/PKG-INFO\n'}
+[2.841510] (ur_dashboard_msgs) StdoutLine: {'line': b'writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt\n'}
+[2.841722] (ur_dashboard_msgs) StdoutLine: {'line': b'writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt\n'}
+[2.841929] (ur_dashboard_msgs) StdoutLine: {'line': b"writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'\n"}
+[2.844101] (ur_dashboard_msgs) StdoutLine: {'line': b"reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'\n"}
+[2.844793] (ur_dashboard_msgs) StdoutLine: {'line': b"writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'\n"}
+[2.875149] (ur_dashboard_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg\n'}
+[2.903809] (-) TimerEvent: {}
+[3.004024] (-) TimerEvent: {}
+[3.104306] (-) TimerEvent: {}
+[3.204541] (-) TimerEvent: {}
+[3.304775] (-) TimerEvent: {}
+[3.405017] (-) TimerEvent: {}
+[3.505263] (-) TimerEvent: {}
+[3.605502] (-) TimerEvent: {}
+[3.705755] (-) TimerEvent: {}
+[3.806009] (-) TimerEvent: {}
+[3.906250] (-) TimerEvent: {}
+[4.006494] (-) TimerEvent: {}
+[4.106735] (-) TimerEvent: {}
+[4.207134] (-) TimerEvent: {}
+[4.278153] (ur_dashboard_msgs) StdoutLine: {'line': b'[  1%] Built target ur_dashboard_msgs__cpp\n'}
+[4.298908] (ur_dashboard_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.303380] (ur_dashboard_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.303737] (ur_dashboard_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.307227] (-) TimerEvent: {}
+[4.407591] (-) TimerEvent: {}
+[4.508729] (-) TimerEvent: {}
+[4.586285] (ur_dashboard_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o\x1b[0m\n'}
+[4.587123] (ur_dashboard_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o\x1b[0m\n'}
+[4.587411] (ur_dashboard_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o\x1b[0m\n'}
+[4.589604] (ur_dashboard_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o\x1b[0m\n'}
+[4.589891] (ur_dashboard_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o\x1b[0m\n'}
+[4.608812] (-) TimerEvent: {}
+[4.709875] (-) TimerEvent: {}
+[4.720218] (ur_dashboard_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o\x1b[0m\n'}
+[4.727030] (ur_dashboard_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o\x1b[0m\n'}
+[4.727221] (ur_dashboard_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o\x1b[0m\n'}
+[4.774786] (ur_dashboard_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o\x1b[0m\n'}
+[4.792184] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o\x1b[0m\n'}
+[4.809984] (-) TimerEvent: {}
+[4.903637] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o\x1b[0m\n'}
+[4.904394] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o\x1b[0m\n'}
+[4.905350] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o\x1b[0m\n'}
+[4.910079] (-) TimerEvent: {}
+[4.971491] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o\x1b[0m\n'}
+[5.010192] (-) TimerEvent: {}
+[5.110542] (-) TimerEvent: {}
+[5.195685] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.210622] (-) TimerEvent: {}
+[5.269676] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 14%] Built target ur_dashboard_msgs__rosidl_generator_c\n'}
+[5.286276] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.287625] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.288783] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.310726] (-) TimerEvent: {}
+[5.411148] (-) TimerEvent: {}
+[5.511487] (-) TimerEvent: {}
+[5.611861] (-) TimerEvent: {}
+[5.712996] (-) TimerEvent: {}
+[5.813541] (-) TimerEvent: {}
+[5.914009] (-) TimerEvent: {}
+[6.014465] (-) TimerEvent: {}
+[6.114881] (-) TimerEvent: {}
+[6.215518] (-) TimerEvent: {}
+[6.316573] (-) TimerEvent: {}
+[6.417538] (-) TimerEvent: {}
+[6.483230] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o\x1b[0m\n'}
+[6.484592] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o\x1b[0m\n'}
+[6.504448] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o\x1b[0m\n'}
+[6.517647] (-) TimerEvent: {}
+[6.617925] (-) TimerEvent: {}
+[6.718748] (-) TimerEvent: {}
+[6.819468] (-) TimerEvent: {}
+[6.920938] (-) TimerEvent: {}
+[7.021850] (-) TimerEvent: {}
+[7.122834] (-) TimerEvent: {}
+[7.224131] (-) TimerEvent: {}
+[7.324517] (-) TimerEvent: {}
+[7.349363] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o\x1b[0m\n'}
+[7.355945] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o\x1b[0m\n'}
+[7.423272] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o\x1b[0m\n'}
+[7.424593] (-) TimerEvent: {}
+[7.524920] (-) TimerEvent: {}
+[7.625905] (-) TimerEvent: {}
+[7.728159] (-) TimerEvent: {}
+[7.759056] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o\x1b[0m\n'}
+[7.779565] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o\x1b[0m\n'}
+[7.828259] (-) TimerEvent: {}
+[7.909043] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o\x1b[0m\n'}
+[7.928352] (-) TimerEvent: {}
+[8.001693] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o\x1b[0m\n'}
+[8.006333] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o\x1b[0m\n'}
+[8.010793] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o\x1b[0m\n'}
+[8.013218] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o\x1b[0m\n'}
+[8.015643] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o\x1b[0m\n'}
+[8.028485] (-) TimerEvent: {}
+[8.118217] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o\x1b[0m\n'}
+[8.128595] (-) TimerEvent: {}
+[8.215465] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o\x1b[0m\n'}
+[8.228709] (-) TimerEvent: {}
+[8.329452] (-) TimerEvent: {}
+[8.331547] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o\x1b[0m\n'}
+[8.410682] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o\x1b[0m\n'}
+[8.429594] (-) TimerEvent: {}
+[8.485297] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o\x1b[0m\n'}
+[8.529717] (-) TimerEvent: {}
+[8.586156] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o\x1b[0m\n'}
+[8.607022] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o\x1b[0m\n'}
+[8.629833] (-) TimerEvent: {}
+[8.632289] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o\x1b[0m\n'}
+[8.641355] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o\x1b[0m\n'}
+[8.662371] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o\x1b[0m\n'}
+[8.684810] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o\x1b[0m\n'}
+[8.729955] (-) TimerEvent: {}
+[8.752898] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o\x1b[0m\n'}
+[8.830066] (-) TimerEvent: {}
+[8.832588] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o\x1b[0m\n'}
+[8.930189] (-) TimerEvent: {}
+[8.951575] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o\x1b[0m\n'}
+[9.030331] (-) TimerEvent: {}
+[9.091239] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o\x1b[0m\n'}
+[9.130467] (-) TimerEvent: {}
+[9.137294] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o\x1b[0m\n'}
+[9.171671] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o\x1b[0m\n'}
+[9.230567] (-) TimerEvent: {}
+[9.252152] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.260374] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o\x1b[0m\n'}
+[9.286094] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o\x1b[0m\n'}
+[9.298641] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o\x1b[0m\n'}
+[9.326262] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o\x1b[0m\n'}
+[9.330688] (-) TimerEvent: {}
+[9.437723] (-) TimerEvent: {}
+[9.463969] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o\x1b[0m\n'}
+[9.492476] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o\x1b[0m\n'}
+[9.533015] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 45%] Built target ur_dashboard_msgs__rosidl_typesupport_c\n'}
+[9.551290] (-) TimerEvent: {}
+[9.581432] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o\x1b[0m\n'}
+[9.633017] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o\x1b[0m\n'}
+[9.651401] (-) TimerEvent: {}
+[9.679698] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o\x1b[0m\n'}
+[9.751573] (-) TimerEvent: {}
+[9.769243] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o\x1b[0m\n'}
+[9.786870] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o\x1b[0m\n'}
+[9.851696] (-) TimerEvent: {}
+[9.855541] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o\x1b[0m\n'}
+[9.937157] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o\x1b[0m\n'}
+[9.951805] (-) TimerEvent: {}
+[9.983525] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o\x1b[0m\n'}
+[10.048735] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o\x1b[0m\n'}
+[10.051936] (-) TimerEvent: {}
+[10.078061] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o\x1b[0m\n'}
+[10.140971] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o\x1b[0m\n'}
+[10.152036] (-) TimerEvent: {}
+[10.246576] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o\x1b[0m\n'}
+[10.251816] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o\x1b[0m\n'}
+[10.252228] (-) TimerEvent: {}
+[10.261040] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o\x1b[0m\n'}
+[10.262992] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o\x1b[0m\n'}
+[10.276890] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o\x1b[0m\n'}
+[10.352361] (-) TimerEvent: {}
+[10.356614] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.432310] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o\x1b[0m\n'}
+[10.436873] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.453158] (-) TimerEvent: {}
+[10.487311] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 59%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c\n'}
+[10.514804] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o\x1b[0m\n'}
+[10.537310] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o\x1b[0m\n'}
+[10.541237] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 61%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp\n'}
+[10.553300] (-) TimerEvent: {}
+[10.576316] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o\x1b[0m\n'}
+[10.653407] (-) TimerEvent: {}
+[10.753793] (-) TimerEvent: {}
+[10.854251] (-) TimerEvent: {}
+[10.955305] (-) TimerEvent: {}
+[11.056300] (-) TimerEvent: {}
+[11.157084] (-) TimerEvent: {}
+[11.213670] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o\x1b[0m\n'}
+[11.247759] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o\x1b[0m\n'}
+[11.257248] (-) TimerEvent: {}
+[11.280465] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o\x1b[0m\n'}
+[11.329469] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o\x1b[0m\n'}
+[11.339032] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o\x1b[0m\n'}
+[11.341785] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o\x1b[0m\n'}
+[11.357397] (-) TimerEvent: {}
+[11.457837] (-) TimerEvent: {}
+[11.559775] (-) TimerEvent: {}
+[11.664171] (-) TimerEvent: {}
+[11.703142] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o\x1b[0m\n'}
+[11.764431] (-) TimerEvent: {}
+[11.847568] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o\x1b[0m\n'}
+[11.868196] (-) TimerEvent: {}
+[11.969477] (-) TimerEvent: {}
+[12.070837] (-) TimerEvent: {}
+[12.172434] (-) TimerEvent: {}
+[12.273756] (-) TimerEvent: {}
+[12.318170] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o\x1b[0m\n'}
+[12.338256] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o\x1b[0m\n'}
+[12.341291] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o\x1b[0m\n'}
+[12.341656] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o\x1b[0m\n'}
+[12.373873] (-) TimerEvent: {}
+[12.463077] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o\x1b[0m\n'}
+[12.474613] (-) TimerEvent: {}
+[12.478041] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o\x1b[0m\n'}
+[12.574717] (-) TimerEvent: {}
+[12.640214] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o\x1b[0m\n'}
+[12.674914] (-) TimerEvent: {}
+[12.704090] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o\x1b[0m\n'}
+[12.775019] (-) TimerEvent: {}
+[12.875387] (-) TimerEvent: {}
+[12.975795] (-) TimerEvent: {}
+[13.076232] (-) TimerEvent: {}
+[13.137251] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o\x1b[0m\n'}
+[13.176376] (-) TimerEvent: {}
+[13.183919] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o\x1b[0m\n'}
+[13.196280] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o\x1b[0m\n'}
+[13.276507] (-) TimerEvent: {}
+[13.356419] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o\x1b[0m\n'}
+[13.376630] (-) TimerEvent: {}
+[13.394505] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o\x1b[0m\n'}
+[13.444427] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o\x1b[0m\n'}
+[13.476736] (-) TimerEvent: {}
+[13.577433] (-) TimerEvent: {}
+[13.662580] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o\x1b[0m\n'}
+[13.667432] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o\x1b[0m\n'}
+[13.677534] (-) TimerEvent: {}
+[13.778268] (-) TimerEvent: {}
+[13.879066] (-) TimerEvent: {}
+[13.979946] (-) TimerEvent: {}
+[14.081398] (-) TimerEvent: {}
+[14.184381] (-) TimerEvent: {}
+[14.185832] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o\x1b[0m\n'}
+[14.191868] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.284509] (-) TimerEvent: {}
+[14.376692] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o\x1b[0m\n'}
+[14.384652] (-) TimerEvent: {}
+[14.474527] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 82%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c\n'}
+[14.478993] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o\x1b[0m\n'}
+[14.485283] (-) TimerEvent: {}
+[14.586343] (-) TimerEvent: {}
+[14.666090] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.686462] (-) TimerEvent: {}
+[14.786874] (-) TimerEvent: {}
+[14.794826] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp\n'}
+[14.886969] (-) TimerEvent: {}
+[14.987286] (-) TimerEvent: {}
+[15.087563] (-) TimerEvent: {}
+[15.185321] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.187658] (-) TimerEvent: {}
+[15.271425] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[15.287796] (-) TimerEvent: {}
+[15.290701] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 84%] Built target ur_dashboard_msgs\n'}
+[15.323271] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.387905] (-) TimerEvent: {}
+[15.488167] (-) TimerEvent: {}
+[15.588418] (-) TimerEvent: {}
+[15.688667] (-) TimerEvent: {}
+[15.788916] (-) TimerEvent: {}
+[15.889153] (-) TimerEvent: {}
+[15.989372] (-) TimerEvent: {}
+[16.089647] (-) TimerEvent: {}
+[16.189881] (-) TimerEvent: {}
+[16.290126] (-) TimerEvent: {}
+[16.390337] (-) TimerEvent: {}
+[16.490594] (-) TimerEvent: {}
+[16.590812] (-) TimerEvent: {}
+[16.691082] (-) TimerEvent: {}
+[16.791322] (-) TimerEvent: {}
+[16.891555] (-) TimerEvent: {}
+[16.991792] (-) TimerEvent: {}
+[17.092058] (-) TimerEvent: {}
+[17.192290] (-) TimerEvent: {}
+[17.292532] (-) TimerEvent: {}
+[17.392804] (-) TimerEvent: {}
+[17.493022] (-) TimerEvent: {}
+[17.593294] (-) TimerEvent: {}
+[17.693509] (-) TimerEvent: {}
+[17.793764] (-) TimerEvent: {}
+[17.894003] (-) TimerEvent: {}
+[17.994245] (-) TimerEvent: {}
+[18.094503] (-) TimerEvent: {}
+[18.194746] (-) TimerEvent: {}
+[18.295048] (-) TimerEvent: {}
+[18.347466] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 85%] Built target ur_dashboard_msgs__py\n'}
+[18.377272] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o\x1b[0m\n'}
+[18.377804] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o\x1b[0m\n'}
+[18.378096] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o\x1b[0m\n'}
+[18.378577] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o\x1b[0m\n'}
+[18.379409] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o\x1b[0m\n'}
+[18.383744] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o\x1b[0m\n'}
+[18.385251] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o\x1b[0m\n'}
+[18.390188] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o\x1b[0m\n'}
+[18.395172] (-) TimerEvent: {}
+[18.496453] (-) TimerEvent: {}
+[18.598609] (-) TimerEvent: {}
+[18.669939] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o\x1b[0m\n'}
+[18.670847] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o\x1b[0m\n'}
+[18.679325] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o\x1b[0m\n'}
+[18.683882] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o\x1b[0m\n'}
+[18.687085] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o\x1b[0m\n'}
+[18.691170] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o\x1b[0m\n'}
+[18.698723] (-) TimerEvent: {}
+[18.799124] (-) TimerEvent: {}
+[18.899485] (-) TimerEvent: {}
+[18.938443] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[18.986100] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 96%] Built target ur_dashboard_msgs__rosidl_generator_py\n'}
+[18.999587] (-) TimerEvent: {}
+[19.011329] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.012327] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.012763] (ur_dashboard_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.099705] (-) TimerEvent: {}
+[19.200045] (-) TimerEvent: {}
+[19.272338] (ur_dashboard_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.276824] (ur_dashboard_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.277096] (ur_dashboard_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.300275] (-) TimerEvent: {}
+[19.334886] (ur_dashboard_msgs) StdoutLine: {'line': b'[100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[19.335720] (ur_dashboard_msgs) StdoutLine: {'line': b'[100%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext\n'}
+[19.339001] (ur_dashboard_msgs) StdoutLine: {'line': b'[100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.355442] (ur_dashboard_msgs) CommandEnded: {'returncode': 0}
+[19.400375] (-) TimerEvent: {}
+[19.500672] (-) TimerEvent: {}
+[19.600955] (-) TimerEvent: {}
+[19.701197] (-) TimerEvent: {}
+[19.762235] (ur_dashboard_msgs) JobProgress: {'identifier': 'ur_dashboard_msgs', 'progress': 'install'}
+[19.763469] (ur_dashboard_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/MAPR-project/build/ur_dashboard_msgs'], 'cwd': '/home/MAPR-project/build/ur_dashboard_msgs', 'env': OrderedDict([('USER', 'root'), ('HOSTNAME', 'pop-os'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/MAPR-project/src'), ('TERM_PROGRAM_VERSION', '1.78.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-bc998aca-57c6-47ac-9123-92d5e066747a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-032de77ac4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/MAPR-project/build/ur_dashboard_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.779025] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.779347] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs\n'}
+[19.779698] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs\n'}
+[19.779869] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv\n'}
+[19.779985] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h\n'}
+[19.780105] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h\n'}
+[19.780423] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h\n'}
+[19.780620] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h\n'}
+[19.780842] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h\n'}
+[19.780974] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h\n'}
+[19.781092] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h\n'}
+[19.781198] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail\n'}
+[19.781316] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h\n'}
+[19.781605] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h\n'}
+[19.781759] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h\n'}
+[19.781932] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h\n'}
+[19.782138] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c\n'}
+[19.782348] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h\n'}
+[19.782501] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h\n'}
+[19.782699] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h\n'}
+[19.782859] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.c\n'}
+[19.783054] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h\n'}
+[19.783229] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h\n'}
+[19.783458] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.c\n'}
+[19.783720] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h\n'}
+[19.783862] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c\n'}
+[19.784034] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h\n'}
+[19.784333] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h\n'}
+[19.784524] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h\n'}
+[19.784696] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h\n'}
+[19.784823] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h\n'}
+[19.785017] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h\n'}
+[19.785211] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.c\n'}
+[19.785388] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h\n'}
+[19.785597] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h\n'}
+[19.785771] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h\n'}
+[19.785972] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.c\n'}
+[19.786147] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h\n'}
+[19.786343] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h\n'}
+[19.786521] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h\n'}
+[19.786704] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h\n'}
+[19.786863] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h\n'}
+[19.787044] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h\n'}
+[19.787221] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.c\n'}
+[19.787465] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h\n'}
+[19.787654] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h\n'}
+[19.787852] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h\n'}
+[19.788009] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.c\n'}
+[19.788408] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c\n'}
+[19.788614] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h\n'}
+[19.788800] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c\n'}
+[19.789001] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h\n'}
+[19.789179] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h\n'}
+[19.789374] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h\n'}
+[19.789550] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h\n'}
+[19.789734] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg\n'}
+[19.789914] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.790127] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h\n'}
+[19.790361] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail\n'}
+[19.790540] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.c\n'}
+[19.790772] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h\n'}
+[19.790956] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h\n'}
+[19.791126] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.c\n'}
+[19.791332] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h\n'}
+[19.791512] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h\n'}
+[19.791694] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h\n'}
+[19.791848] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.c\n'}
+[19.791992] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h\n'}
+[19.792175] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h\n'}
+[19.792375] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h\n'}
+[19.792540] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h\n'}
+[19.792705] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h\n'}
+[19.792834] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h\n'}
+[19.792986] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action\n'}
+[19.793153] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h\n'}
+[19.793298] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail\n'}
+[19.793404] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h\n'}
+[19.793528] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h\n'}
+[19.793660] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.c\n'}
+[19.793842] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h\n'}
+[19.794193] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh\n'}
+[19.794592] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv\n'}
+[19.794924] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so\n'}
+[19.795562] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""\n'}
+[19.795674] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs\n'}
+[19.795804] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv\n'}
+[19.795862] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail\n'}
+[19.795987] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h\n'}
+[19.796118] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h\n'}
+[19.796214] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h\n'}
+[19.796301] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h\n'}
+[19.796390] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[19.796504] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h\n'}
+[19.796638] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h\n'}
+[19.796758] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h\n'}
+[19.796897] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h\n'}
+[19.797033] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[19.797161] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg\n'}
+[19.797279] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.797390] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail\n'}
+[19.797473] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[19.797557] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h\n'}
+[19.797691] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[19.797813] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action\n'}
+[19.797928] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail\n'}
+[19.797984] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[19.798073] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[19.798646] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.798752] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs\n'}
+[19.798900] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv\n'}
+[19.799015] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail\n'}
+[19.799108] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h\n'}
+[19.799225] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c\n'}
+[19.799322] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c\n'}
+[19.799408] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h\n'}
+[19.799498] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c\n'}
+[19.799635] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h\n'}
+[19.799779] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c\n'}
+[19.799906] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h\n'}
+[19.800047] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c\n'}
+[19.800252] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c\n'}
+[19.800380] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h\n'}
+[19.800550] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c\n'}
+[19.800699] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h\n'}
+[19.800824] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c\n'}
+[19.800977] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c\n'}
+[19.801165] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h\n'}
+[19.801226] (-) TimerEvent: {}
+[19.801336] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h\n'}
+[19.801437] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h\n'}
+[19.801569] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h\n'}
+[19.801710] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c\n'}
+[19.801853] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg\n'}
+[19.801976] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail\n'}
+[19.802033] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c\n'}
+[19.802132] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c\n'}
+[19.802231] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h\n'}
+[19.802349] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h\n'}
+[19.802484] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h\n'}
+[19.802615] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c\n'}
+[19.802753] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.803004] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action\n'}
+[19.803147] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail\n'}
+[19.803265] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c\n'}
+[19.803375] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h\n'}
+[19.803620] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so\n'}
+[19.804418] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.804557] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so\n'}
+[19.805142] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""\n'}
+[19.805239] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs\n'}
+[19.805340] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv\n'}
+[19.805418] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp\n'}
+[19.805498] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp\n'}
+[19.805593] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp\n'}
+[19.805762] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail\n'}
+[19.805870] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp\n'}
+[19.806082] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp\n'}
+[19.806253] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp\n'}
+[19.806427] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp\n'}
+[19.806741] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp\n'}
+[19.806888] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp\n'}
+[19.807160] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp\n'}
+[19.807330] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp\n'}
+[19.809542] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp\n'}
+[19.809772] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp\n'}
+[19.810170] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp\n'}
+[19.810304] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp\n'}
+[19.810457] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp\n'}
+[19.810581] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp\n'}
+[19.810720] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp\n'}
+[19.810840] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp\n'}
+[19.810982] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp\n'}
+[19.811104] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp\n'}
+[19.811242] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp\n'}
+[19.811448] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp\n'}
+[19.811592] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp\n'}
+[19.811744] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp\n'}
+[19.811910] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp\n'}
+[19.812051] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp\n'}
+[19.812209] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp\n'}
+[19.812377] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp\n'}
+[19.813153] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp\n'}
+[19.813273] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp\n'}
+[19.813641] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp\n'}
+[19.813896] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp\n'}
+[19.814052] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp\n'}
+[19.814413] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp\n'}
+[19.814523] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp\n'}
+[19.814910] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp\n'}
+[19.815034] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp\n'}
+[19.815536] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp\n'}
+[19.815859] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp\n'}
+[19.815972] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg\n'}
+[19.816109] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail\n'}
+[19.816238] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp\n'}
+[19.816359] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp\n'}
+[19.816698] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp\n'}
+[19.817234] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp\n'}
+[19.817341] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp\n'}
+[19.817661] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp\n'}
+[19.818601] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp\n'}
+[19.818739] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp\n'}
+[19.818907] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp\n'}
+[19.819051] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp\n'}
+[19.819338] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp\n'}
+[19.819543] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp\n'}
+[19.819685] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action\n'}
+[19.819817] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp\n'}
+[19.819958] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail\n'}
+[19.820052] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp\n'}
+[19.820215] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp\n'}
+[19.820423] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp\n'}
+[19.820785] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs\n'}
+[19.820911] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv\n'}
+[19.821080] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail\n'}
+[19.821193] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.821340] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.821498] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.821701] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.821994] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.822165] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.822306] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.822505] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/dds_fastrtps\n'}
+[19.822640] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.822851] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.822989] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.823142] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg\n'}
+[19.823297] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail\n'}
+[19.823401] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.823550] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/dds_fastrtps\n'}
+[19.823651] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.823779] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.823983] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.824177] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action\n'}
+[19.824306] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail\n'}
+[19.824420] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/dds_fastrtps\n'}
+[19.824510] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.824632] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.825396] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.825585] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs\n'}
+[19.825705] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv\n'}
+[19.825827] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail\n'}
+[19.825924] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp\n'}
+[19.826034] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp\n'}
+[19.826223] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.826375] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp\n'}
+[19.826590] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.826717] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.cpp\n'}
+[19.826898] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp\n'}
+[19.827098] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp\n'}
+[19.827298] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp\n'}
+[19.827442] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.827596] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.827804] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.828046] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.828288] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.828438] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.828567] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.828673] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp\n'}
+[19.828856] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.829056] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp\n'}
+[19.829188] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.cpp\n'}
+[19.829338] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg\n'}
+[19.829397] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail\n'}
+[19.829475] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp\n'}
+[19.829665] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.829847] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp\n'}
+[19.829992] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp\n'}
+[19.830183] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.830384] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.830513] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action\n'}
+[19.830583] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail\n'}
+[19.830664] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.830735] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp\n'}
+[19.830951] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[19.831647] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.831768] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so\n'}
+[19.832300] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[19.832465] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh\n'}
+[19.832617] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv\n'}
+[19.832802] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.6-py3.10.egg-info\n'}
+[19.832983] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.6-py3.10.egg-info/PKG-INFO\n'}
+[19.833142] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.6-py3.10.egg-info/dependency_links.txt\n'}
+[19.833248] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.6-py3.10.egg-info/top_level.txt\n'}
+[19.833337] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.6-py3.10.egg-info/SOURCES.txt\n'}
+[19.833489] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs\n'}
+[19.833576] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.834056] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.834440] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[19.834827] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv\n'}
+[19.834906] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c\n'}
+[19.835029] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c\n'}
+[19.835181] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c\n'}
+[19.835318] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c\n'}
+[19.835461] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c\n'}
+[19.835592] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py\n'}
+[19.835733] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py\n'}
+[19.835855] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py\n'}
+[19.835996] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c\n'}
+[19.836265] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py\n'}
+[19.836341] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py\n'}
+[19.836514] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py\n'}
+[19.836673] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py\n'}
+[19.836830] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py\n'}
+[19.836968] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py\n'}
+[19.837056] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c\n'}
+[19.837135] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py\n'}
+[19.837270] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c\n'}
+[19.837404] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py\n'}
+[19.837573] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c\n'}
+[19.837720] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c\n'}
+[19.837879] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so\n'}
+[19.838145] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.838400] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py\n'}
+[19.838520] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg\n'}
+[19.838590] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py\n'}
+[19.838690] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py\n'}
+[19.838827] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py\n'}
+[19.838968] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py\n'}
+[19.839099] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c\n'}
+[19.839259] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c\n'}
+[19.839388] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c\n'}
+[19.839510] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action\n'}
+[19.839639] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c\n'}
+[19.839805] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py\n'}
+[19.839890] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py\n'}
+[19.840081] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.840332] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.891022] (ur_dashboard_msgs) StdoutLine: {'line': b"Listing '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...\n"}
+[19.891190] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py'...\n"}
+[19.891258] (ur_dashboard_msgs) StdoutLine: {'line': b"Listing '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...\n"}
+[19.891320] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py'...\n"}
+[19.891375] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py'...\n"}
+[19.891428] (ur_dashboard_msgs) StdoutLine: {'line': b"Listing '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...\n"}
+[19.891481] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py'...\n"}
+[19.891533] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py'...\n"}
+[19.891585] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py'...\n"}
+[19.891638] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py'...\n"}
+[19.891690] (ur_dashboard_msgs) StdoutLine: {'line': b"Listing '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...\n"}
+[19.891742] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py'...\n"}
+[19.891804] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py'...\n"}
+[19.891866] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...\n"}
+[19.891920] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py'...\n"}
+[19.891981] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...\n"}
+[19.892034] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...\n"}
+[19.892097] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py'...\n"}
+[19.892152] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...\n"}
+[19.892204] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py'...\n"}
+[19.892256] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py'...\n"}
+[19.892308] (ur_dashboard_msgs) StdoutLine: {'line': b"Compiling '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py'...\n"}
+[19.895353] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.895928] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.896146] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.896752] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.897000] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.897508] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.897672] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so\n'}
+[19.898181] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/MAPR-project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""\n'}
+[19.898290] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl\n'}
+[19.898453] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl\n'}
+[19.898622] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl\n'}
+[19.898855] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl\n'}
+[19.899042] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl\n'}
+[19.899176] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl\n'}
+[19.899282] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl\n'}
+[19.899415] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl\n'}
+[19.899612] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl\n'}
+[19.899775] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl\n'}
+[19.899922] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl\n'}
+[19.900096] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl\n'}
+[19.900258] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl\n'}
+[19.900506] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl\n'}
+[19.900676] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg\n'}
+[19.900989] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg\n'}
+[19.901192] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg\n'}
+[19.901284] (-) TimerEvent: {}
+[19.901465] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv\n'}
+[19.901677] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg\n'}
+[19.901902] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg\n'}
+[19.902168] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv\n'}
+[19.902381] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg\n'}
+[19.902549] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg\n'}
+[19.902764] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv\n'}
+[19.902966] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg\n'}
+[19.903188] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg\n'}
+[19.903521] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv\n'}
+[19.903763] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg\n'}
+[19.903952] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg\n'}
+[19.904314] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv\n'}
+[19.904602] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg\n'}
+[19.904784] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg\n'}
+[19.905045] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv\n'}
+[19.905298] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg\n'}
+[19.905505] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg\n'}
+[19.905778] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv\n'}
+[19.906075] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg\n'}
+[19.906261] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg\n'}
+[19.906560] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv\n'}
+[19.906839] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg\n'}
+[19.907113] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg\n'}
+[19.907374] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv\n'}
+[19.910505] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg\n'}
+[19.910633] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg\n'}
+[19.911002] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv\n'}
+[19.911446] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg\n'}
+[19.911835] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg\n'}
+[19.912324] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action\n'}
+[19.912984] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs\n'}
+[19.913722] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs\n'}
+[19.914030] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh\n'}
+[19.914423] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv\n'}
+[19.914864] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh\n'}
+[19.915336] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv\n'}
+[19.915798] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash\n'}
+[19.916154] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh\n'}
+[19.916566] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh\n'}
+[19.917020] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv\n'}
+[19.917502] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv\n'}
+[19.917973] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs\n'}
+[19.918347] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake\n'}
+[19.918776] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.919145] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.919538] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.919987] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.920488] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.920892] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake\n'}
+[19.921240] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.921555] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake\n'}
+[19.921978] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.922470] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.922887] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.923367] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.923831] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[19.924344] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.924814] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake\n'}
+[19.925108] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.925356] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[19.925715] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.926006] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.926338] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.926583] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.926815] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.927074] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.927342] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake\n'}
+[19.927551] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake\n'}
+[19.927833] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Installing: /home/MAPR-project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml\n'}
+[19.930210] (ur_dashboard_msgs) CommandEnded: {'returncode': 0}
+[20.001367] (-) TimerEvent: {}
+[20.101611] (-) TimerEvent: {}
+[20.201837] (-) TimerEvent: {}
+[20.272837] (ur_dashboard_msgs) JobEnded: {'identifier': 'ur_dashboard_msgs', 'rc': 0}
+[20.275966] (ur_controllers) JobStarted: {'identifier': 'ur_controllers'}
+[20.285850] (ur_controllers) JobProgress: {'identifier': 'ur_controllers', 'progress': 'cmake'}
+[20.286096] (ur_controllers) Command: {'cmd': ['/usr/bin/cmake', '/home/MAPR-project/src/Universal_Robots_ROS2_Driver/ur_controllers', '-DCMAKE_INSTALL_PREFIX=/home/MAPR-project/install/ur_controllers'], 'cwd': '/home/MAPR-project/build/ur_controllers', 'env': OrderedDict([('USER', 'root'), ('HOSTNAME', 'pop-os'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/MAPR-project/install/ur_dashboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/MAPR-project/src'), ('TERM_PROGRAM_VERSION', '1.78.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-bc998aca-57c6-47ac-9123-92d5e066747a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-032de77ac4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-7b0d5b94-9402-4731-937a-9597311f5f4b.sock'), ('AMENT_PREFIX_PATH', '/home/MAPR-project/install/ur_dashboard_msgs:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/MAPR-project/build/ur_controllers'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/MAPR-project/install/ur_dashboard_msgs:/opt/ros/humble')]), 'shell': False}
+[20.301959] (-) TimerEvent: {}
+[20.383728] (ur_controllers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[20.402123] (-) TimerEvent: {}
+[20.452591] (ur_controllers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[20.461660] (ur_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[20.502197] (-) TimerEvent: {}
+[20.533903] (ur_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[20.541898] (ur_controllers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[20.543963] (ur_controllers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[20.544576] (ur_controllers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[20.547888] (ur_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.602328] (-) TimerEvent: {}
+[20.644423] (ur_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.651175] (ur_controllers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[20.651425] (ur_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.651852] (ur_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.657768] (ur_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[20.702429] (-) TimerEvent: {}
+[20.802680] (-) TimerEvent: {}
+[20.842838] (ur_controllers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[20.902807] (-) TimerEvent: {}
+[20.949413] (ur_controllers) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[20.977063] (ur_controllers) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[20.977278] (ur_controllers) StderrLine: {'line': b'  By not providing "Findcontroller_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[20.977464] (ur_controllers) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[20.977580] (ur_controllers) StderrLine: {'line': b'  "controller_interface", but CMake did not find one.\n'}
+[20.977676] (ur_controllers) StderrLine: {'line': b'\n'}
+[20.977774] (ur_controllers) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[20.977865] (ur_controllers) StderrLine: {'line': b'  "controller_interface" with any of the following names:\n'}
+[20.977959] (ur_controllers) StderrLine: {'line': b'\n'}
+[20.978044] (ur_controllers) StderrLine: {'line': b'    controller_interfaceConfig.cmake\n'}
+[20.978122] (ur_controllers) StderrLine: {'line': b'    controller_interface-config.cmake\n'}
+[20.978212] (ur_controllers) StderrLine: {'line': b'\n'}
+[20.978293] (ur_controllers) StderrLine: {'line': b'  Add the installation prefix of "controller_interface" to CMAKE_PREFIX_PATH\n'}
+[20.978371] (ur_controllers) StderrLine: {'line': b'  or set "controller_interface_DIR" to a directory containing one of the\n'}
+[20.978452] (ur_controllers) StderrLine: {'line': b'  above files.  If "controller_interface" provides a separate development\n'}
+[20.978537] (ur_controllers) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[20.978622] (ur_controllers) StderrLine: {'line': b'\n'}
+[20.978706] (ur_controllers) StderrLine: {'line': b'\x1b[0m\n'}
+[20.978793] (ur_controllers) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[20.978891] (ur_controllers) StdoutLine: {'line': b'See also "/home/MAPR-project/build/ur_controllers/CMakeFiles/CMakeOutput.log".\n'}
+[20.981672] (ur_controllers) CommandEnded: {'returncode': 1}
+[20.998866] (ur_controllers) JobEnded: {'identifier': 'ur_controllers', 'rc': 1}
+[21.002925] (-) TimerEvent: {}
+[21.009339] (ur_bringup) JobSkipped: {'identifier': 'ur_bringup'}
+[21.009470] (ur_robot_driver) JobSkipped: {'identifier': 'ur_robot_driver'}
+[21.009566] (ur_calibration) JobSkipped: {'identifier': 'ur_calibration'}
+[21.009679] (ur) JobSkipped: {'identifier': 'ur'}
+[21.009704] (-) EventReactorShutdown: {}

@@ -1,0 +1,76 @@
+[0.026s] Invoking command in '/home/MAPR-project/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/MAPR-project/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/MAPR-project/install/ur_moveit_config
+[0.182s] -- The C compiler identification is GNU 11.3.0
+[0.275s] -- The CXX compiler identification is GNU 11.3.0
+[0.293s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.394s] -- Detecting CXX compiler ABI info
+[0.489s] -- Detecting CXX compiler ABI info - done
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.502s] -- Detecting CXX compile features
+[0.502s] -- Detecting CXX compile features - done
+[0.510s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.777s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.063s] -- Configuring done
+[1.068s] -- Generating done
+[1.069s] -- Build files have been written to: /home/MAPR-project/build/ur_moveit_config
+[1.073s] Invoked command in '/home/MAPR-project/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/MAPR-project/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/MAPR-project/install/ur_moveit_config
+[1.074s] Invoking command in '/home/MAPR-project/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/MAPR-project/build/ur_moveit_config -- -j8 -l8
+[1.142s] Built target ament_cmake_python_copy_ur_moveit_config
+[1.444s] running egg_info
+[1.445s] creating ur_moveit_config.egg-info
+[1.445s] writing ur_moveit_config.egg-info/PKG-INFO
+[1.445s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[1.446s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[1.446s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.448s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.449s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.473s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[1.489s] Invoked command in '/home/MAPR-project/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/MAPR-project/build/ur_moveit_config -- -j8 -l8
+[1.527s] Invoking command in '/home/MAPR-project/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/MAPR-project/build/ur_moveit_config
+[1.534s] -- Install configuration: ""
+[1.535s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config
+[1.535s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[1.535s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[1.535s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[1.535s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[1.536s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/launch
+[1.536s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[1.536s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/rviz
+[1.536s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[1.536s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/srdf
+[1.537s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[1.537s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[1.537s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[1.537s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[1.537s] -- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info
+[1.538s] -- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/PKG-INFO
+[1.538s] -- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/dependency_links.txt
+[1.538s] -- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/top_level.txt
+[1.538s] -- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/SOURCES.txt
+[1.538s] -- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config
+[1.538s] -- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[1.538s] -- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[1.571s] Listing '/home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[1.571s] Compiling '/home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[1.571s] Compiling '/home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[1.576s] -- Installing: /home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[1.629s] Compiling '/home/MAPR-project/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[1.636s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[1.636s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[1.636s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[1.637s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[1.637s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[1.637s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[1.637s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[1.638s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[1.638s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[1.638s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[1.638s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[1.639s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[1.639s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[1.639s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[1.639s] -- Installing: /home/MAPR-project/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[1.644s] Invoked command in '/home/MAPR-project/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/MAPR-project/build/ur_moveit_config

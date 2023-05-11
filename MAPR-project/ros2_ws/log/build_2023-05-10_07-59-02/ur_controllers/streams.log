@@ -1,0 +1,36 @@
+[0.012s] Invoking command in '/home/MAPR-project/build/ur_controllers': AMENT_PREFIX_PATH=/home/MAPR-project/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/MAPR-project/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/MAPR-project/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/MAPR-project/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/MAPR-project/install/ur_controllers
+[0.108s] -- The C compiler identification is GNU 11.3.0
+[0.177s] -- The CXX compiler identification is GNU 11.3.0
+[0.186s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.268s] -- Detecting C compile features
+[0.269s] -- Detecting C compile features - done
+[0.272s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.567s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.674s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.701s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.701s]   By not providing "Findcontroller_interface.cmake" in CMAKE_MODULE_PATH this
+[0.702s]   project has asked CMake to find a package configuration file provided by
+[0.702s]   "controller_interface", but CMake did not find one.
+[0.702s] 
+[0.702s]   Could not find a package configuration file provided by
+[0.702s]   "controller_interface" with any of the following names:
+[0.702s] 
+[0.702s]     controller_interfaceConfig.cmake
+[0.702s]     controller_interface-config.cmake
+[0.702s] 
+[0.702s]   Add the installation prefix of "controller_interface" to CMAKE_PREFIX_PATH
+[0.702s]   or set "controller_interface_DIR" to a directory containing one of the
+[0.703s]   above files.  If "controller_interface" provides a separate development
+[0.703s]   package or SDK, be sure it has been installed.
+[0.703s] 
+[0.703s] [0m
+[0.703s] -- Configuring incomplete, errors occurred!
+[0.703s] See also "/home/MAPR-project/build/ur_controllers/CMakeFiles/CMakeOutput.log".
+[0.706s] Invoked command in '/home/MAPR-project/build/ur_controllers' returned '1': AMENT_PREFIX_PATH=/home/MAPR-project/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/MAPR-project/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/MAPR-project/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/MAPR-project/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/MAPR-project/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/MAPR-project/install/ur_controllers
